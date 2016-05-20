@@ -1,0 +1,60 @@
+\begin{thebibliography}{}
+
+\bibitem[Breazeal and Scassellati, 1999]{breazeal1999build}
+Breazeal, C. and Scassellati, B. (1999).
+\newblock How to build robots that make friends and influence people.
+\newblock In {\em Intelligent Robots and Systems, 1999. IROS'99. Proceedings.
+  1999 IEEE/RSJ International Conference on}, volume~2, pages 858--863. IEEE.
+
+\bibitem[Lim et~al., 2011]{lim2011converting}
+Lim, A., Ogata, T., and Okuno, H.~G. (2011).
+\newblock Converting emotional voice to motion for robot telepresence.
+\newblock In {\em Humanoid Robots (Humanoids), 2011 11th IEEE-RAS International
+  Conference on}, pages 472--479. IEEE.
+
+\bibitem[Masuda and Kato, 2010]{masuda2010motion}
+Masuda, M. and Kato, S. (2010).
+\newblock Motion rendering system for emotion expression of human form robots
+  based on laban movement analysis.
+\newblock In {\em RO-MAN, 2010 IEEE}, pages 324--329. IEEE.
+
+\bibitem[Masuda et~al., 2009]{masuda2009emotion}
+Masuda, M., Kato, S., and Itoh, H. (2009).
+\newblock Emotion detection from body motion of human form robot based on laban
+  movement analysis.
+\newblock In {\em Principles of Practice in Multi-Agent Systems}, pages
+  322--334. Springer.
+
+\bibitem[Park et~al., 2009]{park2009robot}
+Park, J.-C., Kim, H.-R., Kim, Y.-M., and Kwon, D.-S. (2009).
+\newblock Robot's individual emotion generation model and action coloring
+  according to the robot's personality.
+\newblock In {\em Robot and Human Interactive Communication, 2009. RO-MAN 2009.
+  The 18th IEEE International Symposium on}, pages 257--262. IEEE.
+
+\bibitem[Tielman et~al., 2014]{tielman2014adaptive}
+Tielman, M., Neerincx, M., Meyer, J.-J., and Looije, R. (2014).
+\newblock Adaptive emotional expression in robot-child interaction.
+\newblock In {\em Proceedings of the 2014 ACM/IEEE international conference on
+  Human-robot interaction}, pages 407--414. ACM.
+
+\bibitem[Xu et~al., 2013a]{xu2013bodily}
+Xu, J., Broekens, J., Hindriks, K., and Neerincx, M.~A. (2013a).
+\newblock {\em Bodily mood expression: Recognize moods from functional
+  behaviors of humanoid robots}.
+\newblock Springer.
+
+\bibitem[Xu et~al., 2013b]{xu2013mood}
+Xu, J., Broekens, J., Hindriks, K., and Neerincx, M.~A. (2013b).
+\newblock Mood expression through parameterized functional behavior of robots.
+\newblock In {\em RO-MAN, 2013 IEEE}, pages 533--540. IEEE.
+
+\bibitem[Xu et~al., 2014]{xu2014robot}
+Xu, J., Broekens, J., Hindriks, K., and Neerincx, M.~A. (2014).
+\newblock Robot mood is contagious: effects of robot body language in the
+  imitation game.
+\newblock In {\em Proceedings of the 2014 international conference on
+  Autonomous agents and multi-agent systems}, pages 973--980. International
+  Foundation for Autonomous Agents and Multiagent Systems.
+
+\end{thebibliography}
