@@ -1,60 +1,204 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 
-\bibitem[Breazeal and Scassellati, 1999]{breazeal1999build}
-Breazeal, C. and Scassellati, B. (1999).
+\bibitem{keltner1999social}
+Dacher Keltner and Jonathan Haidt.
+\newblock Social functions of emotions at four levels of analysis.
+\newblock {\em Cognition \& Emotion}, 13(5):505--521, 1999.
+
+\bibitem{shariff2011emotion}
+Azim~F Shariff and Jessica~L Tracy.
+\newblock What are emotion expressions for?
+\newblock {\em Current Directions in Psychological Science}, 20(6):395--399,
+  2011.
+
+\bibitem{parkinson2011interpersonal}
+Brian Parkinson.
+\newblock Interpersonal emotion transfer: Contagion and social appraisal.
+\newblock {\em Social and Personality Psychology Compass}, 5(7):428--439, 2011.
+
+\bibitem{bayliss2007affective}
+Andrew~P Bayliss, Alexandra Frischen, Mark~J Fenske, and Steven~P Tipper.
+\newblock Affective evaluations of objects are influenced by observed gaze
+  direction and emotional expression.
+\newblock {\em Cognition}, 104(3):644--653, 2007.
+
+\bibitem{latane1968group}
+Bibb Latane and John~M Darley.
+\newblock Group inhibition of bystander intervention in emergencies.
+\newblock {\em Journal of personality and social psychology}, 10(3):215, 1968.
+
+\bibitem{strack1988inhibiting}
+Fritz Strack, Leonard~L Martin, and Sabine Stepper.
+\newblock Inhibiting and facilitating conditions of the human smile: a
+  nonobtrusive test of the facial feedback hypothesis.
+\newblock {\em Journal of personality and social psychology}, 54(5):768, 1988.
+
+\bibitem{tamietto2009unseen}
+Marco Tamietto, Lorys Castelli, Sergio Vighetti, Paola Perozzo, Giuliano
+  Geminiani, Lawrence Weiskrantz, and Beatrice de~Gelder.
+\newblock Unseen facial and bodily expressions trigger fast emotional
+  reactions.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  106(42):17661--17666, 2009.
+
+\bibitem{tiedens2003power}
+Larissa~Z Tiedens and Alison~R Fragale.
+\newblock Power moves: complementarity in dominant and submissive nonverbal
+  behavior.
+\newblock {\em Journal of personality and social psychology}, 84(3):558, 2003.
+
+\bibitem{neumann2000mood}
+Roland Neumann and Fritz Strack.
+\newblock Mood contagion: the automatic transfer of mood between persons.
+\newblock {\em Journal of personality and social psychology}, 79(2):211, 2000.
+
+\bibitem{barsade2002ripple}
+Sigal~G Barsade.
+\newblock The ripple effect: Emotional contagion and its influence on group
+  behavior.
+\newblock {\em Administrative Science Quarterly}, 47(4):644--675, 2002.
+
+\bibitem{kramer2014experimental}
+Adam~DI Kramer, Jamie~E Guillory, and Jeffrey~T Hancock.
+\newblock Experimental evidence of massive-scale emotional contagion through
+  social networks.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  111(24):8788--8790, 2014.
+
+\bibitem{winkielman2005unconscious}
+Piotr Winkielman, Kent~C Berridge, and Julia~L Wilbarger.
+\newblock Unconscious affective reactions to masked happy versus angry faces
+  influence consumption behavior and judgments of value.
+\newblock {\em Personality and Social Psychology Bulletin}, 31(1):121--135,
+  2005.
+
+\bibitem{mussel2013value}
+Patrick Mussel, Anja~S G{\"o}ritz, and Johannes Hewig.
+\newblock The value of a smile: Facial expression affects ultimatum-game
+  responses.
+\newblock {\em Judgment and Decision Making}, 8(3):381, 2013.
+
+\bibitem{dittrich1996perception}
+Winand~H Dittrich, Tom Troscianko, Stephen~EG Lea, and Dawn Morgan.
+\newblock Perception of emotion from dynamic point-light displays represented
+  in dance.
+\newblock {\em Perception}, 25(6):727--738, 1996.
+
+\bibitem{pollick2001perceiving}
+Frank~E Pollick, Helena~M Paterson, Armin Bruderlin, and Anthony~J Sanford.
+\newblock Perceiving affect from arm movement.
+\newblock {\em Cognition}, 82(2):B51--B61, 2001.
+
+\bibitem{atkinson2004emotion}
+Anthony~P Atkinson, Winand~H Dittrich, Andrew~J Gemmell, and Andrew~W Young.
+\newblock Emotion perception from dynamic and static body expressions in
+  point-light and full-light displays.
+\newblock {\em Perception}, 33(6):717--746, 2004.
+
+\bibitem{lab2011}
+Rudolf Laban.
+\newblock {\em The Mastery of Movement}.
+\newblock Dance Books Ltd, 2011.
+
+\bibitem{newlove1993laban}
+Jean Newlove.
+\newblock {\em Laban for actors and dancers: putting Laban's movement theory
+  into practice: a step-by-step guide}.
+\newblock Theatre Arts Books, 1993.
+
+\bibitem{scherer2000cross}
+Klaus~R Scherer.
+\newblock A cross-cultural investigation of emotion inferences from voice and
+  speech: implications for speech technology.
+\newblock In {\em INTERSPEECH}, pages 379--382, 2000.
+
+\bibitem{scherer1986vocal}
+Klaus~R Scherer.
+\newblock Vocal affect expression: a review and a model for future research.
+\newblock {\em Psychological bulletin}, 99(2):143, 1986.
+
+\bibitem{cowie2001emotion}
+Roddy Cowie, Ellen Douglas-Cowie, Nicolas Tsapatsoulis, George Votsis, Stefanos
+  Kollias, Winfried Fellenz, and John~G Taylor.
+\newblock Emotion recognition in human-computer interaction.
+\newblock {\em Signal Processing Magazine, IEEE}, 18(1):32--80, 2001.
+
+\bibitem{breazeal1999build}
+Cynthia Breazeal and Brian Scassellati.
 \newblock How to build robots that make friends and influence people.
 \newblock In {\em Intelligent Robots and Systems, 1999. IROS'99. Proceedings.
-  1999 IEEE/RSJ International Conference on}, volume~2, pages 858--863. IEEE.
+  1999 IEEE/RSJ International Conference on}, volume~2, pages 858--863. IEEE,
+  1999.
 
-\bibitem[Lim et~al., 2011]{lim2011converting}
-Lim, A., Ogata, T., and Okuno, H.~G. (2011).
-\newblock Converting emotional voice to motion for robot telepresence.
-\newblock In {\em Humanoid Robots (Humanoids), 2011 11th IEEE-RAS International
-  Conference on}, pages 472--479. IEEE.
-
-\bibitem[Masuda and Kato, 2010]{masuda2010motion}
-Masuda, M. and Kato, S. (2010).
-\newblock Motion rendering system for emotion expression of human form robots
-  based on laban movement analysis.
-\newblock In {\em RO-MAN, 2010 IEEE}, pages 324--329. IEEE.
-
-\bibitem[Masuda et~al., 2009]{masuda2009emotion}
-Masuda, M., Kato, S., and Itoh, H. (2009).
-\newblock Emotion detection from body motion of human form robot based on laban
-  movement analysis.
-\newblock In {\em Principles of Practice in Multi-Agent Systems}, pages
-  322--334. Springer.
-
-\bibitem[Park et~al., 2009]{park2009robot}
-Park, J.-C., Kim, H.-R., Kim, Y.-M., and Kwon, D.-S. (2009).
+\bibitem{park2009robot}
+Jong-Chan Park, Hyoung-Rock Kim, Young-Min Kim, and Dong-Soo Kwon.
 \newblock Robot's individual emotion generation model and action coloring
   according to the robot's personality.
 \newblock In {\em Robot and Human Interactive Communication, 2009. RO-MAN 2009.
-  The 18th IEEE International Symposium on}, pages 257--262. IEEE.
+  The 18th IEEE International Symposium on}, pages 257--262. IEEE, 2009.
 
-\bibitem[Tielman et~al., 2014]{tielman2014adaptive}
-Tielman, M., Neerincx, M., Meyer, J.-J., and Looije, R. (2014).
+\bibitem{tielman2014adaptive}
+Myrthe Tielman, Mark Neerincx, John-Jules Meyer, and Rosemarijn Looije.
 \newblock Adaptive emotional expression in robot-child interaction.
 \newblock In {\em Proceedings of the 2014 ACM/IEEE international conference on
-  Human-robot interaction}, pages 407--414. ACM.
+  Human-robot interaction}, pages 407--414. ACM, 2014.
 
-\bibitem[Xu et~al., 2013a]{xu2013bodily}
-Xu, J., Broekens, J., Hindriks, K., and Neerincx, M.~A. (2013a).
+\bibitem{masuda2010motion}
+Megumi Masuda and Shohei Kato.
+\newblock Motion rendering system for emotion expression of human form robots
+  based on laban movement analysis.
+\newblock In {\em RO-MAN, 2010 IEEE}, pages 324--329. IEEE, 2010.
+
+\bibitem{lim2011converting}
+Angelica Lim, Tetsuya Ogata, and Hiroshi~G Okuno.
+\newblock Converting emotional voice to motion for robot telepresence.
+\newblock In {\em Humanoid Robots (Humanoids), 2011 11th IEEE-RAS International
+  Conference on}, pages 472--479. IEEE, 2011.
+
+\bibitem{xu2013mood}
+Junchao Xu, Joost Broekens, Koen Hindriks, and Mark~A Neerincx.
+\newblock Mood expression through parameterized functional behavior of robots.
+\newblock In {\em RO-MAN, 2013 IEEE}, pages 533--540. IEEE, 2013.
+
+\bibitem{masuda2009emotion}
+Megumi Masuda, Shohei Kato, and Hidenori Itoh.
+\newblock Emotion detection from body motion of human form robot based on laban
+  movement analysis.
+\newblock In {\em Principles of Practice in Multi-Agent Systems}, pages
+  322--334. Springer, 2009.
+
+\bibitem{xu2013bodily}
+Junchao Xu, Joost Broekens, Koen Hindriks, and Mark~A Neerincx.
 \newblock {\em Bodily mood expression: Recognize moods from functional
   behaviors of humanoid robots}.
-\newblock Springer.
+\newblock Springer, 2013.
 
-\bibitem[Xu et~al., 2013b]{xu2013mood}
-Xu, J., Broekens, J., Hindriks, K., and Neerincx, M.~A. (2013b).
-\newblock Mood expression through parameterized functional behavior of robots.
-\newblock In {\em RO-MAN, 2013 IEEE}, pages 533--540. IEEE.
-
-\bibitem[Xu et~al., 2014]{xu2014robot}
-Xu, J., Broekens, J., Hindriks, K., and Neerincx, M.~A. (2014).
+\bibitem{xu2014robot}
+Junchao Xu, Joost Broekens, Koen Hindriks, and Mark~A Neerincx.
 \newblock Robot mood is contagious: effects of robot body language in the
   imitation game.
 \newblock In {\em Proceedings of the 2014 international conference on
   Autonomous agents and multi-agent systems}, pages 973--980. International
-  Foundation for Autonomous Agents and Multiagent Systems.
+  Foundation for Autonomous Agents and Multiagent Systems, 2014.
+
+\bibitem{louie2012playing}
+Wing-Yue~Geoffrey Louie, Derek McColl, and Goldie Nejat.
+\newblock Playing a memory game with a socially assistive robot: A case study
+  at a long-term care facility.
+\newblock In {\em RO-MAN, 2012 IEEE}, pages 345--350. IEEE, 2012.
+
+\bibitem{chidambaram2012designing}
+Vijay Chidambaram, Yueh-Hsuan Chiang, and Bilge Mutlu.
+\newblock Designing persuasive robots: how robots might persuade people using
+  vocal and nonverbal cues.
+\newblock In {\em Proceedings of the seventh annual ACM/IEEE international
+  conference on Human-Robot Interaction}, pages 293--300. ACM, 2012.
+
+\bibitem{nakagawa2011effect}
+Kayako Nakagawa, Masahiro Shiomi, Kazuhiko Shinozawa, Reo Matsumura, Hiroshi
+  Ishiguro, and Norihiro Hagita.
+\newblock Effect of robot's active touch on people's motivation.
+\newblock In {\em Human-Robot Interaction (HRI), 2011 6th ACM/IEEE
+  International Conference on}, pages 465--472. IEEE, 2011.
 
 \end{thebibliography}
