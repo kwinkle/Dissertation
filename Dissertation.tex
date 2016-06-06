@@ -14,6 +14,7 @@
 
 \begin{document}
 \maketitle
+\tableofcontents
 
 \chapter{Introduction}
 
@@ -60,6 +61,94 @@ Chidambaram et al. used a desert survival HRI task to demonstrate how both vocal
 Nakagawa et al. used a monotonous task with a robot companion to determine the effect of robot touch on motivation \cite{nakagawa2011effect}. Participants were asked to undertake a monotonous task for as long as they liked; the base condition had the robot companion only talking to the participant, the two other conditions involved the robot also being passively touched by or actively touching the participant while they worked. The time spent undertaking the task was measured for each condition to give a quantitative measure of the impact. Similar to the work of Chidambaram et al., subjective feedback measures were also used to collect information on the participants' perception but in this case considering robot perception generally rather than specifically its use in motivation. 
 
 In summary there are very few previous HRI studies that deal specifically with the impact of affective communication; however, additional inspiration for quantitative measurements can be drawn from other HRI studies. How best to demonstrate the impact of affective communication is one of the key research questions considered in this project; the aim is to generate insightful data that offers some quantitative measure of impact but also captures more qualitative information to allow for interesting discussion. Considering this aim alongside the example experiments discussed here highlights human/robot task performance, human emotional state and subjective participant opinions as key measures for evaluation.
+
+\chapter{Research Methodology}
+[intro paragraph]
+\section{Generating Emotional Expressions on NAO}
+\subsection{Gesture Design and Modification: SIRE Framework}
+Choice of gestures based on task, described in detail in later section
+Use of Choregraphe (as opposed to...?)
+Application of SIRE framework
+Pre-test of recognition of emotion in gestures (and/or combined with the speech perhaps?)
+
+Pseudo-code for the SIRE framework:
+Each gesture consists of moving from base pose to the extended pose and back again. Some of the more complex gestures utilise multiple extended poses... however essentially the same principle applies. For each gesture the following key parameters were defined:
+\begin{itemize}
+\item p$_{min}$ : a minimum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
+\item p$_{max}$ : maximum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
+\item t$_{1}$b : base time for movement from neutral to extended pose (extension time)
+\item t$_{2}$b : base time for movement returning from extended to neutral pose (return time)
+\item m : minimum time required to execute gesture (for safe operation)
+\item r : maximum time offset for irregular movements (such that gesture is still clear)
+\end{itemize}
+Note that base timing for the gesture was set in order to align the gestures with their spoken instructions [is this really still relevant for the imitation game?]. The SIRE parameters are applied to the gestures as follows:
+
+\textbf{Speed \& Intensity}
+\\Speed of the gesture is adjusted by modifying the extension and return times passed to the path planner...maximum prevents time being made unsafe...
+\begin{equation}
+t_{1} = max[(1-S)*I*t_{1}b,m]
+\end{equation}
+
+\begin{equation}
+t_{2} = max[(1-S)*t_{2}b,m]
+\end{equation}
+
+\textbf{Regularity}
+\\Regularity...
+\begin{equation}
+dt = (1-R)*r
+\end{equation}
+
+\begin{equation}
+t_{x}(rightArm) = t_{x}(leftArm) + dt
+\end{equation}
+
+\textbf{Extent}
+\\Extent...
+\begin{equation}
+p = p_{min} + E*(p_{max} - p_{min})
+\end{equation}
+
+\subsubsection{Validation of Gesture Emotion Recognition}
+
+\subsection{Speech Generation}
+Testing emotion recognition in CereVoice generated samples - give results as proof of whether need to manually apply SIRE framework to speech.
+
+\subsection{Validation of Emotional Expressions}
+Recognition experiments
+
+\section{Experimentally Testing for Robot to Human IET}
+\subsection{Contagion Through Interaction}
+Choice of imitation game
+How long game/interaction should be to allow for contagion to occur
+\subsection{Measuring Emotional State}
+literature
+\subsection{Hypothesise}
+\begin{itemize}
+	\item[H1] Participants in the happy condition will demonstrate a more positive emotional state, compared to those in the neutral condition, after interacting with the robot
+\end{itemize}
+\subsection{Experiment Design}
+Measures
+Method/set-up
+
+\section{Experimentally Demonstrating the Impact of Emotional Expressions on HRI}
+Testing impact of the robot being emotional rather than just neutral
+\subsection{Measuring Robot Impact}
+Literature - esp. robot touch paper
+Areas of interest for application - arm exercise paper, stroke therapy paper
+\subsection{Hypothesise}
+\begin{itemize}
+	\item[H1] Participants in the happy condition will carry out the defined monotonous task for longer than those in the neutral condition
+\end{itemize}
+\subsection{Experiment Design}
+Measures
+Method/set-up
+
+\chapter{Results}
+
+\chapter{Discussion}
+
+\chapter{Conclusions}
 
 \bibliographystyle{unsrt}
 \bibliography{MyReading}
