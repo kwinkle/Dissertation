@@ -65,38 +65,38 @@ In summary there are very few previous HRI studies that deal specifically with t
 \chapter{Research Methodology}
 [intro paragraph]
 \section{Generating Emotional Expressions on NAO}
-\subsection{Gesture Design and Modification: SIRE Framework}
-Choice of gestures based on task, described in detail in later section
+\subsection{Gesture Modification: SIRE Framework}
+Application of Lim's SIRE framework to any gesture
 Use of Choregraphe (as opposed to...?)
-Application of SIRE framework
-Pre-test of recognition of emotion in gestures (and/or combined with the speech perhaps?)
 
 Pseudo-code for the SIRE framework:
 Each gesture consists of moving from base pose to the extended pose and back again. Some of the more complex gestures utilise multiple extended poses... however essentially the same principle applies. For each gesture the following key parameters were defined:
 \begin{itemize}
-\item p$_{min}$ : a minimum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
-\item p$_{max}$ : maximum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
-\item t$_{1}$b : base time for movement from neutral to extended pose (extension time)
-\item t$_{2}$b : base time for movement returning from extended to neutral pose (return time)
-\item m : minimum time required to execute gesture (for safe operation)
-\item r : maximum time offset for irregular movements (such that gesture is still clear)
+\item pmin : a minimum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
+\item pmax : maximum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
+\item t$_{1}$max : maximum time for movement from neutral to extended pose (extension time)
+\item t$_{2}$max : maximum time for movement returning from extended to neutral pose (return time)
+\item tmin : minimum time required to execute gesture (for safe operation)
+\item rmax : maximum time offset for irregular movements (such that gesture is still clear)
 \end{itemize}
-Note that base timing for the gesture was set in order to align the gestures with their spoken instructions [is this really still relevant for the imitation game?]. The SIRE parameters are applied to the gestures as follows:
 
 \textbf{Speed \& Intensity}
-\\Speed of the gesture is adjusted by modifying the extension and return times passed to the path planner...maximum prevents time being made unsafe...
+\\Speed of the gesture is adjusted by modifying the extension and return times passed to the path planner, $t_{1}$ and $t_{2}$. The maximum times described above are multiplied by $(1-S)$ where S is the speed parameter, i.e. as speed is increased the gesture time is reduced. A maximum operator is used to compare the adjusted time with the specified minimum to ensure the movement is not too fast.
+
+Intensity is applied by further reducing the extension time, $t_{1}$, by multiplication with the intensity factor $I$. This gives the appearance of essentially accelerating gesture extension with no change to the return movement. 
+
 \begin{equation}
-t_{1} = max[(1-S)*I*t_{1}b,m]
+t_{1} = max[(1-S)*I*t_{1}max,tmin]
 \end{equation}
 
 \begin{equation}
-t_{2} = max[(1-S)*t_{2}b,m]
+t_{2} = max[(1-S)*t_{2}max,tmin]
 \end{equation}
 
 \textbf{Regularity}
-\\Regularity...
+\\ Regularity is applied by introducing a temporal delay, $dt$, defined based on $(1-R)$ where R is the regularity parameter, between execution of the left and right arm movements in gestures which utilise both arms. Doing anything with head movements (as in Lim's original)??
 \begin{equation}
-dt = (1-R)*r
+dt = (1-R)*rmax
 \end{equation}
 
 \begin{equation}
@@ -104,15 +104,13 @@ t_{x}(rightArm) = t_{x}(leftArm) + dt
 \end{equation}
 
 \textbf{Extent}
-\\Extent...
+\\Extent is applied by adjusting the size of the gesture between the minimum and maximum, by adding a proportion of the difference between them (set by the extent value E) to the minimum. 
 \begin{equation}
 p = p_{min} + E*(p_{max} - p_{min})
 \end{equation}
 
-\subsubsection{Validation of Gesture Emotion Recognition}
-
 \subsection{Speech Generation}
-Testing emotion recognition in CereVoice generated samples - give results as proof of whether need to manually apply SIRE framework to speech.
+Cerevoice emotion tags
 
 \subsection{Validation of Emotional Expressions}
 Recognition experiments
@@ -123,7 +121,7 @@ Choice of imitation game
 How long game/interaction should be to allow for contagion to occur
 \subsection{Measuring Emotional State}
 literature
-\subsection{Hypothesise}
+\subsection{Hypothesis}
 \begin{itemize}
 	\item[H1] Participants in the happy condition will demonstrate a more positive emotional state, compared to those in the neutral condition, after interacting with the robot
 \end{itemize}
@@ -136,7 +134,7 @@ Testing impact of the robot being emotional rather than just neutral
 \subsection{Measuring Robot Impact}
 Literature - esp. robot touch paper
 Areas of interest for application - arm exercise paper, stroke therapy paper
-\subsection{Hypothesise}
+\subsection{Hypothesis}
 \begin{itemize}
 	\item[H1] Participants in the happy condition will carry out the defined monotonous task for longer than those in the neutral condition
 \end{itemize}
