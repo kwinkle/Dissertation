@@ -74,33 +74,34 @@ Each gesture consists of moving from base pose to the extended pose and back aga
 \begin{itemize}
 \item pmin : a minimum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
 \item pmax : maximum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
-\item t$_{1}$max : maximum time for movement from neutral to extended pose (extension time)
-\item t$_{2}$max : maximum time for movement returning from extended to neutral pose (return time)
-\item tmin : minimum time required to execute gesture (for safe operation)
-\item rmax : maximum time offset for irregular movements (such that gesture is still clear)
+\item tExt : time for extension gesture based on average from an actor video
+\item tPos : time extended posture is held based on average from an actor video
+\item tRet : time for return gesture based on average from an actor video
+\item tMin : minimum time required to execute gesture (for safe operation)
+\item rMax : maximum time offset for irregular movements (such that gesture is still clear)
 \end{itemize}
 
 \textbf{Speed \& Intensity}
-\\Speed of the gesture is adjusted by modifying the extension and return times passed to the path planner, $t_{1}$ and $t_{2}$. The maximum times described above are multiplied by $(1-S)$ where S is the speed parameter, i.e. as speed is increased the gesture time is reduced. A maximum operator is used to compare the adjusted time with the specified minimum to ensure the movement is not too fast.
+\\Speed of the movement is adjusted by modifying the extension and return times passed to the path planner, tExt and tRet. The maximum times described above are multiplied by $(1-S)$ where S is the speed parameter, i.e. as speed is increased the gesture time is reduced. A maximum operator is used to compare the adjusted time with the specified minimum to ensure the movement is not too fast.
 
-Intensity is applied by further reducing the extension time, $t_{1}$, by multiplication with the intensity factor $I$. This gives the appearance of essentially accelerating gesture extension with no change to the return movement. 
+Intensity is applied by further reducing the extension time, $t_{1}$, in the same way as speed, by multiplication with $(1-I)$ where I is the intensity parameter. This gives the appearance of essentially accelerating gesture extension with no change to the return movement. 
 
 \begin{equation}
-t_{1} = max[(1-S)*I*t_{1}max,tmin]
+t_{1} = max[(1-S)*(1-I)*tExt,tmin]
 \end{equation}
 
 \begin{equation}
-t_{2} = max[(1-S)*t_{2}max,tmin]
+t_{2} = max[(1-S)*tRet,tmin]
 \end{equation}
 
 \textbf{Regularity}
-\\ Regularity is applied by introducing a temporal delay, $dt$, defined based on $(1-R)$ where R is the regularity parameter, between execution of the left and right arm movements in gestures which utilise both arms. Doing anything with head movements (as in Lim's original)??
+\\ Regularity is applied by introducing a temporal delay, $dt$, defined based on $(1-R)$ where R is the regularity parameter, between execution of the left and right arm movements in gestures which utilise both arms. Doing anything with head movements (as in Lim's original)?? Perhaps not as may be confusing given task requires movement copying - explain if this is the case.
 \begin{equation}
-dt = (1-R)*rmax
+dt = (1-R)*rMax
 \end{equation}
 
 \begin{equation}
-t_{x}(rightArm) = t_{x}(leftArm) + dt
+t(rightArm) = t(leftArm) + dt
 \end{equation}
 
 \textbf{Extent}
@@ -109,38 +110,57 @@ t_{x}(rightArm) = t_{x}(leftArm) + dt
 p = p_{min} + E*(p_{max} - p_{min})
 \end{equation}
 
+Positive and negative SIRE values initially set based on general design principles identified by Xu et al \cite{xu2013mood} and specific values found by Lim (cite her thesis); neutral just set as all 0.5 (medium) apart from regularity which is 1.
+
+As interaction activity is to copy gestures for a workout, regularity was not applied as could be confusing; explain this is ok because Lim's thesis showed that SIE was enough to show happiness and sadness. 
+
+Generic design principles identified:
+
+\begin{tabular}{|c|c|c|}
+\hline & Positive & Negative \\ 
+\hline Speed & high & medium \\ 
+\hline Intensity & high & medium \\ 
+\hline Regularity & high & high \\ 
+\hline Extent & high & medium \\ 
+\hline 
+\end{tabular} 
+
+Actual initial values used:
+
+\begin{tabular}{|c|c|c|c|}
+\hline & Positive & Negative & Neutral \\ 
+\hline Speed & 0.8 & 0.1 & 0.5\\ 
+\hline Intensity & 0.2 & 0.5 & 0.5 \\ 
+\hline Regularity & 1.0 & 1.0 & 1.0 \\ 
+\hline Extent & 0.8 & 0.1 & 0.5\\ 
+\hline 
+\end{tabular} 
+
 \subsection{Speech Generation}
 Cerevoice emotion tags
 
 \subsection{Validation of Emotional Expressions}
 Recognition experiments
 
-\section{Experimentally Testing for Robot to Human IET}
-\subsection{Contagion Through Interaction}
-Choice of imitation game
-How long game/interaction should be to allow for contagion to occur
-\subsection{Measuring Emotional State}
-literature
-\subsection{Hypothesis}
+\section{Human Robot Interaction Activity}
+Arm exercises, references to relevant papers
+
+\section{Testing for Emotion Contagion}
+\subsection{Hypotheses}
 \begin{itemize}
 	\item[H1] Participants in the happy condition will demonstrate a more positive emotional state, compared to those in the neutral condition, after interacting with the robot
 \end{itemize}
-\subsection{Experiment Design}
-Measures
-Method/set-up
+\subsection{Measures}
 
-\section{Experimentally Demonstrating the Impact of Emotional Expressions on HRI}
-Testing impact of the robot being emotional rather than just neutral
-\subsection{Measuring Robot Impact}
-Literature - esp. robot touch paper
-Areas of interest for application - arm exercise paper, stroke therapy paper
+\section{Testing Impact on Motivation/Performance}
 \subsection{Hypothesis}
 \begin{itemize}
 	\item[H1] Participants in the happy condition will carry out the defined monotonous task for longer than those in the neutral condition
 \end{itemize}
-\subsection{Experiment Design}
-Measures
-Method/set-up
+\subsection{Measures}
+
+\section{Experimental Procedure}
+Overview/schedule of experiment as experienced by participants
 
 \chapter{Results}
 

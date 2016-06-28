@@ -8,17 +8,16 @@
 \contentsline {chapter}{\numberline {3}Research Methodology}{8}
 \contentsline {section}{\numberline {3.1}Generating Emotional Expressions on NAO}{8}
 \contentsline {subsection}{\numberline {3.1.1}Gesture Modification: SIRE Framework}{8}
-\contentsline {subsection}{\numberline {3.1.2}Speech Generation}{9}
-\contentsline {subsection}{\numberline {3.1.3}Validation of Emotional Expressions}{9}
-\contentsline {section}{\numberline {3.2}Experimentally Testing for Robot to Human IET}{9}
-\contentsline {subsection}{\numberline {3.2.1}Contagion Through Interaction}{9}
-\contentsline {subsection}{\numberline {3.2.2}Measuring Emotional State}{10}
-\contentsline {subsection}{\numberline {3.2.3}Hypothesis}{10}
-\contentsline {subsection}{\numberline {3.2.4}Experiment Design}{10}
-\contentsline {section}{\numberline {3.3}Experimentally Demonstrating the Impact of Emotional Expressions on HRI}{10}
-\contentsline {subsection}{\numberline {3.3.1}Measuring Robot Impact}{10}
-\contentsline {subsection}{\numberline {3.3.2}Hypothesis}{10}
-\contentsline {subsection}{\numberline {3.3.3}Experiment Design}{10}
+\contentsline {subsection}{\numberline {3.1.2}Speech Generation}{10}
+\contentsline {subsection}{\numberline {3.1.3}Validation of Emotional Expressions}{10}
+\contentsline {section}{\numberline {3.2}Human Robot Interaction Activity}{10}
+\contentsline {section}{\numberline {3.3}Testing for Emotion Contagion}{10}
+\contentsline {subsection}{\numberline {3.3.1}Hypotheses}{10}
+\contentsline {subsection}{\numberline {3.3.2}Measures}{10}
+\contentsline {section}{\numberline {3.4}Testing Impact on Motivation/Performance}{10}
+\contentsline {subsection}{\numberline {3.4.1}Hypothesis}{10}
+\contentsline {subsection}{\numberline {3.4.2}Measures}{10}
+\contentsline {section}{\numberline {3.5}Experimental Procedure}{10}
 \contentsline {chapter}{\numberline {4}Results}{11}
 \contentsline {chapter}{\numberline {5}Discussion}{12}
 \contentsline {chapter}{\numberline {6}Conclusions}{13}
