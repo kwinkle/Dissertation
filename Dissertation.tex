@@ -11,7 +11,6 @@
 
 \title{Enhancing Social HRI using Affective Communication}
 \author{Katie Winkle}
-
 \begin{document}
 \maketitle
 \tableofcontents
@@ -25,7 +24,7 @@
 \subsection{IET and its Impact on Human Behaviour}
 There are different hypotheses concerning the purpose of IET and emotional expression more generally in HHI. A functionalist approach (considering the consequences in order to determine the purpose) suggests that at the dyadic level, emotion expressions help individuals determine other's emotions, beliefs, intentions and orientation towards their relationship; and that evoking emotions in others is associated with behaviours such as avoidance, helping, affiliation and soothing \cite{keltner1999social}. An evolutionary approach (considering development over time and the link to population fitness) suggests that emotional expression evolved from being a physiological response (e.g. scrunching the nose to prevent inhalation of noxious gas) into a form of social communication, which observers evolved an ability to instantly and subconsciously decode in order to obtain information about the expresser and/or their environment \cite{shariff2011emotion}. Regardless of exact purpose, a consistent theme in psychology literature is the importance and subconscious nature of IET resulting from emotional expression in communication, and this is what has the greatest relevance to HRI. 
 
-There is evidence to suggest that one form of IET is social appraisal, whereby individual human judgement is influenced by the perceived judgement of others \cite{parkinson2011interpersonal}. Specifically, it has been demonstrated that judgement of an everyday object differs depending on whether it is presented alongside a smiling or disgusted face \cite{bayliss2007affective} suggesting that emotional expression is a trigger for this form of IET. Another experiment demonstrated that even in a very dangerous situation (a simulated fire) participants surrounded by seemingly calm and unresponsive actors were slower to react than participants that were alone; it has been argued that this could be due to IET effects whereby the participants felt calmer due to the calmness of the actors and also judged the situation to be less dangerous based on their percieved lack of concern (\cite{latane1968group} as discussed in \cite{parkinson2011interpersonal}).
+There is evidence to suggest that one form of IET is social appraisal, whereby individual human judgement is influenced by the perceived judgement of others \cite{parkinson2011interpersonal}. Specifically, it has been demonstrated that judgement of an everyday object differs depending on whether it is presented alongside a smiling or disgusted face \cite{bayliss2007affective} suggesting that emotional expression is a trigger for this form of IET. Another experiment demonstrated that even in a very dangerous situation (a simulated fire) participants surrounded by seemingly calm and unresponsive actors were slower to react than participants that were alone; it has been argued that this could be due to IET effects whereby the participants felt calmer due to the calmness of the actors and also judged the situation to be less dangerous based on their perceived lack of concern (\cite{latane1968group} as discussed in \cite{parkinson2011interpersonal}).
 
 Another evidenced form of IET is emotion contagion, whereby an individual's emotional state changes based on that of their interaction partner; however, this is less well understood and more difficult to experimentally examine than social appraisal effects \cite{parkinson2011interpersonal}. There is a general consensus that most emotion contagion is a form of social mimicry, however, it is disputed whether this is based on physical mimicry, in which the related emotion is generated from mimicking the physical expression; i.e. the individual smiles in response to a smile and hence feels happier \cite{strack1988inhibiting}, or whether expression is less important and actually an individual must understand and perceive the reason for another's emotional expression in order for emotion contagion to occur \cite{tamietto2009unseen}. In contrast to the idea of simple mimicry it should also be noted that emotion contagion has been demonstrated to induce contrasting rather than matching emotions, and that this may be linked to social stature \cite{tiedens2003power}.
 
@@ -50,9 +49,9 @@ Considering these three models, Lim et al.'s is the most simple and yet achieved
 
 Of these three models only Xu et al. went on to evaluate the impact of their generated emotional expression on HRI, specifically attempting to demonstrate whether robot to human IET occurred, for which they did find some evidence \cite{xu2014robot}. The experimental design of Xu et al.'s study, as well as others concerned with affective communication and HRI, are discussed in the following section.
 
-\section{Experimentally Evaluating the Impact of Affective Communication}
+\section{Experimentally Evaluating the Impact of Robot Affect}
 
-Previous studies documenting the impact of affective robot communication have typically produced only qualitative data. For example, Tielman et al. demonstrated an adaptive emotion model implemented on a NAO used to play a quiz game with children; by using questionnaires they determined that children found emotional expression to be a positive trait for a robot \cite{tielman2014adaptive}. Similarly, a long term study documenting the use of a humanoid game playing robot in an elderly care home found, also by questionnaire, that users rated emotional expression to be one of their favourite robot traits \cite{louie2012playing}. Clearly such qualitative results are important and can offer a valuable insight into HRI, especially surrounding how well `liked' the robot is which is arguably some measure of the robot's effectiveness itself; however, examples from the psychology literature suggest that it should also be possible to produce more quantitative results which demonstrate the measured impact of affective communication, e.g. around the performance of a task \cite{barsade2002ripple} or reaction to an event \cite{latane1968group}.
+Previous studies documenting the impact of affective robot behaviour have typically produced only qualitative data. For example, Tielman et al. demonstrated an adaptive emotion model implemented on a NAO used to play a quiz game with children; by using questionnaires they determined that children found emotional expression to be a positive trait for a robot \cite{tielman2014adaptive}. Similarly, a long term study documenting the use of a humanoid game playing robot in an elderly care home found, also by questionnaire, that users rated emotional expression to be one of their favourite robot traits \cite{louie2012playing}. Clearly such qualitative results are important and can offer a valuable insight into HRI, especially surrounding how well `liked' the robot is which is arguably some measure of the robot's effectiveness itself; however, examples from the psychology literature suggest that it should also be possible to produce more quantitative results which demonstrate the measured impact of affective communication, e.g. around the performance of a task \cite{barsade2002ripple} or reaction to an event \cite{latane1968group}.
 
 In a rare example of quantitative study considering robot to human IET, Xu et al. demonstrated that participants performed better in a harder task when working with a robot displaying a negative rather than positive `mood'; they then used this result to argue that emotion contagion had occurred because of a hypothesised psychological phenomenon that humans undertake certain types of task better when in a negative mood \cite{xu2014robot}. Finding further inspiration for evaluation methods and experiment design requires the consideration of HRI studies that do not specifically consider affective communication but do measure the impact of different robot behaviours. Two such studies are outlined below.
 
@@ -65,15 +64,16 @@ In summary there are very few previous HRI studies that deal specifically with t
 \chapter{Research Methodology}
 [intro paragraph]
 \section{Generating Emotional Expressions on NAO}
+[Intro paragraph on wanting to be able to make functional gestures emotional rather than expressing emotion through specific emotive movements]
 \subsection{Gesture Modification: SIRE Framework}
 Application of Lim's SIRE framework to any gesture
 Use of Choregraphe (as opposed to...?)
 
 Pseudo-code for the SIRE framework:
-Each gesture consists of moving from base pose to the extended pose and back again. Some of the more complex gestures utilise multiple extended poses... however essentially the same principle applies. For each gesture the following key parameters were defined:
+Each gesture consists of moving from base pose to the extended pose and back again. For each gesture the following key parameters were defined:
 \begin{itemize}
-\item pmin : a minimum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
-\item pmax : maximum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
+\item pMin : a minimum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
+\item pMax : maximum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
 \item tExt : time for extension gesture based on average from an actor video
 \item tPos : time extended posture is held based on average from an actor video
 \item tRet : time for return gesture based on average from an actor video
@@ -81,8 +81,8 @@ Each gesture consists of moving from base pose to the extended pose and back aga
 \item rMax : maximum time offset for irregular movements (such that gesture is still clear)
 \end{itemize}
 
-\textbf{Speed \& Intensity}
-\\Speed of the movement is adjusted by modifying the extension and return times passed to the path planner, tExt and tRet. The maximum times described above are multiplied by $(1-S)$ where S is the speed parameter, i.e. as speed is increased the gesture time is reduced. A maximum operator is used to compare the adjusted time with the specified minimum to ensure the movement is not too fast.
+\subsubsection{Speed \& Intensity}
+Speed of the movement is adjusted by modifying the extension and return times passed to the path planner, tExt and tRet. The maximum times described above are multiplied by $(1-S)$ where S is the speed parameter, i.e. as speed is increased the gesture time is reduced. A maximum operator is used to compare the adjusted time with the specified minimum to ensure the movement is not too fast.
 
 Intensity is applied by further reducing the extension time, $t_{1}$, in the same way as speed, by multiplication with $(1-I)$ where I is the intensity parameter. This gives the appearance of essentially accelerating gesture extension with no change to the return movement. 
 
@@ -94,8 +94,8 @@ t_{1} = max[(1-S)*(1-I)*tExt,tmin]
 t_{2} = max[(1-S)*tRet,tmin]
 \end{equation}
 
-\textbf{Regularity}
-\\ Regularity is applied by introducing a temporal delay, $dt$, defined based on $(1-R)$ where R is the regularity parameter, between execution of the left and right arm movements in gestures which utilise both arms. Doing anything with head movements (as in Lim's original)?? Perhaps not as may be confusing given task requires movement copying - explain if this is the case.
+\subsubsection{Regularity}
+Regularity is applied by introducing a temporal delay, $dt$, defined based on $(1-R)$ where R is the regularity parameter, between execution of the left and right arm movements in gestures which utilise both arms. Doing anything with head movements (as in Lim's original)?? Perhaps not as may be confusing given task requires movement copying - explain if this is the case.
 \begin{equation}
 dt = (1-R)*rMax
 \end{equation}
@@ -104,8 +104,8 @@ dt = (1-R)*rMax
 t(rightArm) = t(leftArm) + dt
 \end{equation}
 
-\textbf{Extent}
-\\Extent is applied by adjusting the size of the gesture between the minimum and maximum, by adding a proportion of the difference between them (set by the extent value E) to the minimum. 
+\subsubsection{Extent}
+Extent is applied by adjusting the size of the gesture between the minimum and maximum, by adding a proportion of the difference between them (set by the extent value E) to the minimum. 
 \begin{equation}
 p = p_{min} + E*(p_{max} - p_{min})
 \end{equation}
@@ -114,14 +114,17 @@ Positive and negative SIRE values initially set based on general design principl
 
 As interaction activity is to copy gestures for a workout, regularity was not applied as could be confusing; explain this is ok because Lim's thesis showed that SIE was enough to show happiness and sadness. 
 
+\subsubsection{Setting Initial SIRE Values}
+Talk about original method of extracting from voice - something for future work and making autonomous/live (although robots now exist that supposedly monitor your emotion live).
+
 Generic design principles identified:
 
 \begin{tabular}{|c|c|c|}
 \hline & Positive & Negative \\ 
-\hline Speed & high & medium \\ 
-\hline Intensity & high & medium \\ 
+\hline Speed & high & low \\ 
+\hline Intensity & high & low \\ 
 \hline Regularity & high & high \\ 
-\hline Extent & high & medium \\ 
+\hline Extent & high & low \\ 
 \hline 
 \end{tabular} 
 
@@ -130,7 +133,7 @@ Actual initial values used:
 \begin{tabular}{|c|c|c|c|}
 \hline & Positive & Negative & Neutral \\ 
 \hline Speed & 0.8 & 0.1 & 0.5\\ 
-\hline Intensity & 0.2 & 0.5 & 0.5 \\ 
+\hline Intensity & 0.8 & 0.5 & 0.5 \\ 
 \hline Regularity & 1.0 & 1.0 & 1.0 \\ 
 \hline Extent & 0.8 & 0.1 & 0.5\\ 
 \hline 
@@ -139,30 +142,53 @@ Actual initial values used:
 \subsection{Speech Generation}
 Cerevoice emotion tags
 
-\subsection{Validation of Emotional Expressions}
-Recognition experiments
+\subsection{Choregraphe}
+Controlling NAO - both voice and speech, how timing was set etc.
 
-\section{Human Robot Interaction Activity}
-Arm exercises, references to relevant papers
+\section{Testing \& Validation of Emotion Expression}
+Recognition experiments: Voice Only,Gesture Only, Voice + Gesture. 15 participants.
 
-\section{Testing for Emotion Contagion}
+Voice: overall recognition about 60 \%, a lot higher than chance (a third) happy and sad easy to recognise, but neutral was significantly misclassified as happy. Reasons could be participants wanting to pick an emotion, or neutral voice could just seem slightly happy. Need to see how this compares to gestures and then gestures + voice combined.
+
+\section{Human Robot Interaction Experiment Design}
+\subsection{Interaction Activity \& Context}
+\begin{itemize}
+	\item need monotonous/repetitive task to test whether motivation/performance improves inspired by Nakagawa et al. \cite{nakagawa2011effect}.
+	\item wanted to build on work of Xu et al which used imitation game - good way of getting participants to focus on the robot's gestures indirectly
+	\item however one possible issue with use of a game based interaction when looking for emotional impact is the actual emotional impact of doing well/badly in the game (find a ref for this)
+	\item so instead, inspired by mataric's work on the use of robots in encouraging physical exercise and therapy compliance (especially the one where the robot does a gesture which the participant has to copy!), decided to contextualise the gesture imitation as a workout rather than a game
+	\item this also means results will be particularly relevant to the field of assisted living robots
+\end{itemize}
+
+In designing the HRI activity 
+
+\begin{itemize}
+	\item centred around a monotonous task to be voluntarily completed by the participant
+	\item require the participant to closely watch the robots behaviour 
+	\item emotionally neutral
+\end{itemize}
+
 \subsection{Hypotheses}
 \begin{itemize}
-	\item[H1] Participants in the happy condition will demonstrate a more positive emotional state, compared to those in the neutral condition, after interacting with the robot
+	\item[H1] Participants in the happy condition will demonstrate a more positive emotional state, compared to those in the neutral condition, after interacting with the robot, (i.e. emotion contagion will occur)
+	\item[H2] Emotion recognition in valenced conditions - do I need to test this in final experiment given will have gone through sire pre testing? Or is it still helpful to see what participants think robot emotional state is?
+	\item[H3] Emotion expression will have an impact on human task performance/motivation and enjoyment
+	\item[H4] Emotion expression will have an impact on robot perception (based on Chidambaram et al \cite{chidambaram2012designing})
+
 \end{itemize}
 \subsection{Measures}
-
-\section{Testing Impact on Motivation/Performance}
-\subsection{Hypothesis}
-\begin{itemize}
-	\item[H1] Participants in the happy condition will carry out the defined monotonous task for longer than those in the neutral condition
-\end{itemize}
-\subsection{Measures}
-
-\section{Experimental Procedure}
-Overview/schedule of experiment as experienced by participants
+\begin{tabular}{|l|p{7cm}|p{3.8cm}|}
+\hline Feature of Interest & Related Measures & Relevant Hypotheses \\ 
+\hline Emotion Contagion & Word completion task \newline SAM survey (robot and self) & H1 \newline H2 \\ 
+\hline Impact on HRI & Number of exercise rounds voluntarily completed \newline Enjoyment Likert scale \newline Reason for stopping Likert scale \newline Perceived usefulness Likert scale \newline Perceived intelligence Likert scale &  H3 \newline \newline H3 \newline H3 \newline H4 \newline H4 \\
+\hline 
+\end{tabular} 
+\subsection{Experimental Procedure}
 
 \chapter{Results}
+
+\section{Emotion Recognition in Gestures and Voice}
+Talk here a little bit, as an aside, about the difference in emotion recognition across the modalities eg does the presence of gestures increase choosing of the more extreme values, does voice+gesture have the highest recognition overall? Relevant to work like Paul's on importance of gesturing eg for telepresence.
 
 \chapter{Discussion}
 

@@ -4,20 +4,23 @@
 \contentsline {subsection}{\numberline {2.1.1}IET and its Impact on Human Behaviour}{3}
 \contentsline {subsection}{\numberline {2.1.2}Human Displays of Emotion}{4}
 \contentsline {section}{\numberline {2.2}IET and Emotional Expression in Robots}{5}
-\contentsline {section}{\numberline {2.3}Experimentally Evaluating the Impact of Affective Communication}{6}
+\contentsline {section}{\numberline {2.3}Experimentally Evaluating the Impact of Robot Affect}{6}
 \contentsline {chapter}{\numberline {3}Research Methodology}{8}
 \contentsline {section}{\numberline {3.1}Generating Emotional Expressions on NAO}{8}
 \contentsline {subsection}{\numberline {3.1.1}Gesture Modification: SIRE Framework}{8}
+\contentsline {subsubsection}{Speed \& Intensity}{9}
+\contentsline {subsubsection}{Regularity}{9}
+\contentsline {subsubsection}{Extent}{9}
+\contentsline {subsubsection}{Setting Initial SIRE Values}{10}
 \contentsline {subsection}{\numberline {3.1.2}Speech Generation}{10}
-\contentsline {subsection}{\numberline {3.1.3}Validation of Emotional Expressions}{10}
-\contentsline {section}{\numberline {3.2}Human Robot Interaction Activity}{10}
-\contentsline {section}{\numberline {3.3}Testing for Emotion Contagion}{10}
-\contentsline {subsection}{\numberline {3.3.1}Hypotheses}{10}
-\contentsline {subsection}{\numberline {3.3.2}Measures}{10}
-\contentsline {section}{\numberline {3.4}Testing Impact on Motivation/Performance}{10}
-\contentsline {subsection}{\numberline {3.4.1}Hypothesis}{10}
-\contentsline {subsection}{\numberline {3.4.2}Measures}{10}
-\contentsline {section}{\numberline {3.5}Experimental Procedure}{10}
-\contentsline {chapter}{\numberline {4}Results}{11}
-\contentsline {chapter}{\numberline {5}Discussion}{12}
-\contentsline {chapter}{\numberline {6}Conclusions}{13}
+\contentsline {subsection}{\numberline {3.1.3}Choregraphe}{10}
+\contentsline {section}{\numberline {3.2}Testing \& Validation of Emotion Expression}{10}
+\contentsline {section}{\numberline {3.3}Human Robot Interaction Experiment Design}{10}
+\contentsline {subsection}{\numberline {3.3.1}Interaction Activity \& Context}{10}
+\contentsline {subsection}{\numberline {3.3.2}Hypotheses}{11}
+\contentsline {subsection}{\numberline {3.3.3}Measures}{11}
+\contentsline {subsection}{\numberline {3.3.4}Experimental Procedure}{12}
+\contentsline {chapter}{\numberline {4}Results}{13}
+\contentsline {section}{\numberline {4.1}Emotion Recognition in Gestures and Voice}{13}
+\contentsline {chapter}{\numberline {5}Discussion}{14}
+\contentsline {chapter}{\numberline {6}Conclusions}{15}
