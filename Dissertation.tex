@@ -5,7 +5,7 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage[left=3.00cm]{geometry}
-\usepackage{helvet}
+\usepackage{helvet} %uarial alt. package for arial font! Try to see if its better
 \usepackage{natbib} %https://www.sharelatex.com/learn/Natbib_citation_styles
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -38,7 +38,7 @@ In order to design emotionally expressive robot behaviours it must first be esta
 
 The study of emotion recognition in point light displays generated from dance and acting performances has demonstrated that movement alone can express emotion even if the semantic purpose of that movement is unknown (e.g. \cite{dittrich1996perception}, \cite{pollick2001perceiving}, \cite{atkinson2004emotion}). Laban Movement Analysis (LMA), a multidisciplinary tool for movement analysis considering parameters such as weight, space and time, has become a standard method for parameterising movement in order to further study such effects \cite{lab2011}. As such, instructions on how to perform a certain emotion, as might be explained to dancers or actors, typically utilise LMA (e.g. \cite{newlove1993laban}). Similarly, it is widely accepted that emotion can be portrayed through neutral speech \cite{neumann2000mood} or across languages \cite{scherer2000cross} and similar to LMA, this can be quantitatively described by variation in parameters such as pitch, speed and quality (e.g. \cite{scherer1986vocal}, \cite{cowie2001emotion}). 
 
-The reviewed literature that emotion can theoretically be expressed through any movement or speech, regardless of semantic content. This is particularly relevant for roboticists because it means that emotional expression can be added to communication or task execution without changing the robot's functional behaviour. Furthermore the study of emotion in movement and voice lends credibility to the idea of a parameterisation framework for generating emotional expressions, particularly in a robot such as the NAO with no capability for facial expression. 
+The reviewed literature therefore suggets that emotion can theoretically be expressed through any movement or speech, regardless of semantic content. This is particularly relevant for roboticists because it means that emotional expression can be added to communication or task execution without changing the robot's functional behaviour. Furthermore the study of emotion in movement and voice lends credibility to the idea of a parameterisation framework for generating emotional expressions, particularly in a robot such as the NAO with no capability for facial expression. 
 
 \section{IET and Emotional Expression in Robots}
 Giving robots the capability to display emotional expressions has been a recurrent theme in social robotics since the field's infancy \cite{breazeal1999build}. Recent demonstrations include robots whose emotional state and hence behaviour is adaptive based on such things at its `personality' \cite{park2009robot} or whether it is winning or losing at a game \cite{tielman2014adaptive}. Whilst adaptive emotional expression is certainly an area of further work for this project, the initial concern is simply the generation of pre-determined emotions which can be displayed through generic functional behaviours through adjusting vocal and movement parameters as discussed above. Examples of a parameter based emotion framework have already been demonstrated (e.g. \cite{masuda2010motion}, \cite{lim2011converting}, \cite{xu2013mood}) and used to successfully generate emotional expressions in a range of robots including the NAO (\cite{lim2011converting} and \cite{xu2013mood}). 
@@ -133,14 +133,14 @@ Actual initial values used:
 \begin{tabular}{|c|c|c|c|}
 \hline & Positive & Negative & Neutral \\ 
 \hline Speed & 0.8 & 0.1 & 0.5\\ 
-\hline Intensity & 0.8 & 0.5 & 0.5 \\ 
+\hline Intensity & 0.8 & 0.1 & 0.5 \\ 
 \hline Regularity & 1.0 & 1.0 & 1.0 \\ 
 \hline Extent & 0.8 & 0.1 & 0.5\\ 
 \hline 
 \end{tabular} 
 
 \subsection{Speech Generation}
-Cerevoice emotion tags
+Cereproc/Cerevoice; emotion tags
 
 \subsection{Choregraphe}
 Controlling NAO - both voice and speech, how timing was set etc.
@@ -176,22 +176,61 @@ In designing the HRI activity
 	\item[H4] Emotion expression will have an impact on robot perception (based on Chidambaram et al \cite{chidambaram2012designing})
 
 \end{itemize}
+
 \subsection{Measures}
 \begin{tabular}{|l|p{7cm}|p{3.8cm}|}
 \hline Feature of Interest & Related Measures & Relevant Hypotheses \\ 
 \hline Emotion Contagion & Word completion task \newline SAM survey (robot and self) & H1 \newline H2 \\ 
-\hline Impact on HRI & Number of exercise rounds voluntarily completed \newline Enjoyment Likert scale \newline Reason for stopping Likert scale \newline Perceived usefulness Likert scale \newline Perceived intelligence Likert scale &  H3 \newline \newline H3 \newline H3 \newline H4 \newline H4 \\
+\hline Impact on HRI & Number of exercise rounds voluntarily completed \newline Enjoyment Likert scale \newline Reason for stopping Likert scale \newline Perceived usefulness Likert scale \newline Selected Godspeed Questions &  H3 \newline \newline H3 \newline H3 \newline H4 \newline H4 \\
 \hline 
 \end{tabular} 
+Something about design of word completion activity and reason for using that as a mood measure compared to other mood measures. 
+
 \subsection{Experimental Procedure}
+\begin{itemize}
+	\item participants briefed and given a demo of what to expect, then once robot was seen to be working correctly and giving instructions experimenter left the room before exercise started
+	\item IMPORTANT - participants were told that exercise could be stopped at any time and it was up to them how much they wanted to complete
+	\item directly after the interaction participants completed an online survey ordered as follows: word completion test, q's on enjoyment/good exercise instructor, bored/tiredness, manipulation and own emotion check
+	\item 60 participants, 20 per condition
+	
+A total of 62 participants were recruited for the experiment with the data for XX being retained; one participant's data was discarded due to a fire alarm disrupting the experiment... Each participant was assigned randomly to one of the three conditions resulting in 20 participants per condition (or 21 for one of them if keep p61's data??).  
+
+Participants were first asked to read through an experiment information sheet which contained... [note no information about emotion or that exercise rounds would be noted down at this point] and to sign a consent form. A demo was then given to show the participants what to expect and how to interact with the robot [touch to continue used due to lack of confidence in speech recognition]. Again it was pointed out to the participants that the number of exercise rounds was voluntary and they could stop at any time. Once the robot was seen to be working correctly, the experimenter left the room until the exercise session was complete (either because the participant stopped or the maximum number of rounds was reached.)
+
+[robot programme diagram from previous]
 
 \chapter{Results}
 
-\section{Emotion Recognition in Gestures and Voice}
+\section{Emotion Recognition in Robot Gesture and Voice}
+\subsection{SIRE Pretesting}
 Talk here a little bit, as an aside, about the difference in emotion recognition across the modalities eg does the presence of gestures increase choosing of the more extreme values, does voice+gesture have the highest recognition overall? Relevant to work like Paul's on importance of gesturing eg for telepresence.
+
+\subsection{Exercise Activity}
+Lack of recognition/failed manipultion check in final experiment
+
+\section{Robot to Human Emotion Contagion}
+No evidence found based on word completion or self assessment across - same across conditions
+
+\section{Impact of Affective Communication on HRI}
+
+\subsection{Motivation}
+No significant difference in number of rounds completed
+
+\subsection{Robot Perception}
+No significant difference in questionnaire responses
 
 \chapter{Discussion}
 
+\section{Emotion Recognition in Robot Gesture and Voice}
+\begin{itemize}
+	\item why was emotion recognised correctly in pre test but not exercise experiment? Relative difference?
+\end{itemize}
+
+\section{Robot to Human Emotion Contagion}
+\begin{itemize}
+	\item results contrast to positive finding of Xu et al - why might that be?
+\end{itemize}
+\section{Impact of Affective Communication on HRI}
 \chapter{Conclusions}
 
 \bibliographystyle{unsrt}
