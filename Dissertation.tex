@@ -65,9 +65,15 @@ In summary there are very few previous HRI studies that deal specifically with t
 [intro paragraph]
 \section{Generating Emotional Expressions on NAO}
 [Intro paragraph on wanting to be able to make functional gestures emotional rather than expressing emotion through specific emotive movements]
+
+\begin{itemize}
+	\item nao limitations - no facial expression so had to be done via movement and speech only
+	\item previous emotional display on NAO focused on gesture modification - Lim and Xu work
+	
+\end{itemize}
+
 \subsection{Gesture Modification: SIRE Framework}
 Application of Lim's SIRE framework to any gesture
-Use of Choregraphe (as opposed to...?)
 
 Pseudo-code for the SIRE framework:
 Each gesture consists of moving from base pose to the extended pose and back again. For each gesture the following key parameters were defined:
@@ -148,10 +154,15 @@ Controlling NAO - both voice and speech, how timing was set etc.
 \section{Testing \& Validation of Emotion Expression}
 Recognition experiments: Voice Only,Gesture Only, Voice + Gesture. 15 participants.
 
-Voice: overall recognition about 60 \%, a lot higher than chance (a third) happy and sad easy to recognise, but neutral was significantly misclassified as happy. Reasons could be participants wanting to pick an emotion, or neutral voice could just seem slightly happy. Need to see how this compares to gestures and then gestures + voice combined.
+Voice: overall recognition about 60 \%, a lot higher than chance (a third) happy and sad easy to recognise, but neutral was significantly misclassified as happy. Reasons could be participants wanting to pick an emotion, or neutral voice could just seem slightly happy. Need to see how this compares to gestures and then gestures + voice combined. Compare to Lim/Xu. 
+
+Give pretesting results here including the extremity thing.
 
 \section{Human Robot Interaction Experiment Design}
 \subsection{Interaction Activity \& Context}
+
+Describe activity and then explain reasoning:
+
 \begin{itemize}
 	\item need monotonous/repetitive task to test whether motivation/performance improves inspired by Nakagawa et al. \cite{nakagawa2011effect}.
 	\item wanted to build on work of Xu et al which used imitation game - good way of getting participants to focus on the robot's gestures indirectly
@@ -160,19 +171,11 @@ Voice: overall recognition about 60 \%, a lot higher than chance (a third) happy
 	\item this also means results will be particularly relevant to the field of assisted living robots
 \end{itemize}
 
-In designing the HRI activity 
-
-\begin{itemize}
-	\item centred around a monotonous task to be voluntarily completed by the participant
-	\item require the participant to closely watch the robots behaviour 
-	\item emotionally neutral
-\end{itemize}
-
 \subsection{Hypotheses}
 \begin{itemize}
-	\item[H1] Participants in the happy condition will demonstrate a more positive emotional state, compared to those in the neutral condition, after interacting with the robot, (i.e. emotion contagion will occur)
-	\item[H2] Emotion recognition in valenced conditions - do I need to test this in final experiment given will have gone through sire pre testing? Or is it still helpful to see what participants think robot emotional state is?
-	\item[H3] Emotion expression will have an impact on human task performance/motivation and enjoyment
+	\item[H1] Participants in the valenced conditions will demonstrate an emotional state of matching valence after interacting with the robot, (i.e. emotion contagion will occur)
+	\item[H2] Participants will recognise the intended emotional state of the robot when interacting with it
+	\item[H3] Emotion expression will have an impact on human motivation and enjoyment 
 	\item[H4] Emotion expression will have an impact on robot perception (based on Chidambaram et al \cite{chidambaram2012designing})
 
 \end{itemize}
@@ -184,6 +187,8 @@ In designing the HRI activity
 \hline Impact on HRI & Number of exercise rounds voluntarily completed \newline Enjoyment Likert scale \newline Reason for stopping Likert scale \newline Perceived usefulness Likert scale \newline Selected Godspeed Questions &  H3 \newline \newline H3 \newline H3 \newline H4 \newline H4 \\
 \hline 
 \end{tabular} 
+
+\subsubsection{Word Completion Test}
 Something about design of word completion activity and reason for using that as a mood measure compared to other mood measures. 
 
 \subsection{Experimental Procedure}
@@ -200,38 +205,25 @@ Participants were first asked to read through an experiment information sheet wh
 [robot programme diagram from previous]
 
 \chapter{Results}
+Chi squared for word completion because ... and list results
 
-\section{Emotion Recognition in Robot Gesture and Voice}
-\subsection{SIRE Pretesting}
-Talk here a little bit, as an aside, about the difference in emotion recognition across the modalities eg does the presence of gestures increase choosing of the more extreme values, does voice+gesture have the highest recognition overall? Relevant to work like Paul's on importance of gesturing eg for telepresence.
-
-\subsection{Exercise Activity}
-Lack of recognition/failed manipultion check in final experiment
-
-\section{Robot to Human Emotion Contagion}
-No evidence found based on word completion or self assessment across - same across conditions
-
-\section{Impact of Affective Communication on HRI}
-
-\subsection{Motivation}
-No significant difference in number of rounds completed
-
-\subsection{Robot Perception}
-No significant difference in questionnaire responses
+Anova for voluntary rounds, emotional robot state (is it worth doing that in chi squared to match sire pre-test though?), self state and all likert q's because... and list results
 
 \chapter{Discussion}
 
 \section{Emotion Recognition in Robot Gesture and Voice}
 \begin{itemize}
-	\item why was emotion recognised correctly in pre test but not exercise experiment? Relative difference?
+	\item perceived extremity increased by use of gestures - relevant to telepresence etc
+	\item why was emotion recognised correctly in pre test but not exercise experiment? Relative difference? How does this contrast to Lim's result?
 \end{itemize}
 
 \section{Robot to Human Emotion Contagion}
-\begin{itemize}
-	\item results contrast to positive finding of Xu et al - why might that be?
-\end{itemize}
+
 \section{Impact of Affective Communication on HRI}
+
 \chapter{Conclusions}
+
+\section{Further Work}
 
 \bibliographystyle{unsrt}
 \bibliography{MyReading}
