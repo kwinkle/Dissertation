@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.10)  24 AUG 2016 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.10)  25 AUG 2016 18:13
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -299,91 +299,99 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
 ]
 Chapter 2.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 22.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 28.
 [3
 
-] [4] [5] [6] [7]
+] [4] [5] [6]
+
+Package natbib Warning: Citation `goetz2002cooperation' on page 7 undefined on 
+input line 66.
+
+[7] [8]
 Chapter 3.
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 76.
 
 ("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsphv.f
 d"
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
- [8
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
+ [9
 
-] [9] [10]
-Overfull \hbox (8.58562pt too wide) in paragraph at lines 185--186
+] [10] [11] [12]
+Overfull \hbox (8.58562pt too wide) in paragraph at lines 189--190
 []\OT1/phv/m/n/10.95 Emotion ex-pres-sion will have an im-pact on robot per-cep
 -tion (based on Chi-dambaram
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 193--193
+Underfull \hbox (badness 1097) in paragraph at lines 197--197
 []\OT1/phv/m/n/10.95 Number of ex-er-cise rounds vol-un-tar-ily
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
 
-Overfull \hbox (13.88481pt too wide) in paragraph at lines 190--196
+Overfull \hbox (13.88481pt too wide) in paragraph at lines 194--200
 [] 
  []
 
-[11]
-Overfull \hbox (18.49907pt too wide) in paragraph at lines 204--205
+
+Overfull \hbox (18.49907pt too wide) in paragraph at lines 208--209
 \OT1/phv/m/n/10.95 lows: word com-ple-tion test, q's on en-joy-ment/good ex-er-
 cise in-struc-tor, bored/tiredness,
  []
 
-[12] [13]
+[13] [14]
 Chapter 4.
-[14
-
-]
-Chapter 5.
 [15
 
 ]
+Chapter 5.
+[16
+
+]
 Chapter 6.
-(Dissertation.bbl [16
+(Dissertation.bbl [17
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 6.
- [17
+ [18
 
-] [18] [19])
+] [19] [20])
 
-! LaTeX Error: \begin{itemize} on input line 201 ended by \end{document}.
+Package natbib Warning: There were undefined citations.
+
+
+! LaTeX Error: \begin{itemize} on input line 205 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.237 \end{document}
+l.252 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[20] (Dissertation.aux) )
+[21] (Dissertation.aux) )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 201 (\begingroup)
+### semi simple group (level 1) entered at line 205 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3136 strings out of 493634
- 42877 string characters out of 3134015
+ 3137 strings out of 493634
+ 42899 string characters out of 3134015
  108974 words of memory out of 3000000
- 6469 multiletter control sequences out of 15000+200000
+ 6470 multiletter control sequences out of 15000+200000
  34452 words of font info for 74 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  27i,8n,24p,1582b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -398,9 +406,9 @@ onts/cm/cmsy10.pfb><C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/helvetic/uhvb8a.pfb><C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/k-winkle/AppData/Local/Program
 s/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Dissertation.pdf (21 pages, 122165 bytes).
+Output written on Dissertation.pdf (22 pages, 127432 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,6 +16,10 @@
 \tableofcontents
 
 \chapter{Introduction}
+[intro]
+[background/motivation]
+[aims/objectives, remember feedback that these can be quite specific now -> high level hypotheses]
+[after reading this reader should know premise and context of final experiment so can refer to it before explaining in detail in methodology section]
 
 \chapter{Literature Review}
 [intro paragraph]
@@ -53,11 +57,13 @@ Of these three models only Xu et al. went on to evaluate the impact of their gen
 
 Previous studies documenting the impact of affective robot behaviour have typically produced only qualitative data. For example, Tielman et al. demonstrated an adaptive emotion model implemented on a NAO used to play a quiz game with children; by using questionnaires they determined that children found emotional expression to be a positive trait for a robot \cite{tielman2014adaptive}. Similarly, a long term study documenting the use of a humanoid game playing robot in an elderly care home found, also by questionnaire, that users rated emotional expression to be one of their favourite robot traits \cite{louie2012playing}. Clearly such qualitative results are important and can offer a valuable insight into HRI, especially surrounding how well `liked' the robot is which is arguably some measure of the robot's effectiveness itself; however, examples from the psychology literature suggest that it should also be possible to produce more quantitative results which demonstrate the measured impact of affective communication, e.g. around the performance of a task \cite{barsade2002ripple} or reaction to an event \cite{latane1968group}.
 
-In a rare example of quantitative study considering robot to human IET, Xu et al. demonstrated that participants performed better in a harder task when working with a robot displaying a negative rather than positive `mood'; they then used this result to argue that emotion contagion had occurred because of a hypothesised psychological phenomenon that humans undertake certain types of task better when in a negative mood \cite{xu2014robot}. Finding further inspiration for evaluation methods and experiment design requires the consideration of HRI studies that do not specifically consider affective communication but do measure the impact of different robot behaviours. Two such studies are outlined below.
+In a rare example of quantitative study considering robot to human IET, Xu et al. demonstrated that participants performed better in a harder task when working with a robot displaying a negative rather than positive `mood'; they then used this result to argue that emotion contagion had occurred because of a hypothesised psychological phenomenon that humans undertake certain types of task better when in a negative mood \cite{xu2014robot}. Finding further inspiration for evaluation methods and experiment design requires the consideration of HRI studies that do not specifically consider affective communication but do measure the impact of different robot behaviours. Three such studies are outlined below.
 
 Chidambaram et al. used a desert survival HRI task to demonstrate how both vocal and nonverbal robot cues affected their robot's persuasiveness \cite{chidambaram2012designing}. They used a range of conditions considering variation or lack thereof in body movement (proximity, gaze and gesturing) and voice (pitch). Their evaluation measures combined subjective surveys of perceived persuasiveness and objective measures of compliance (i.e. actual persuasiveness). This had the advantage of allowing a valuable comparison between actual and perceived persuasion to be made in the discussion. 
 
 Nakagawa et al. used a monotonous task with a robot companion to determine the effect of robot touch on motivation \cite{nakagawa2011effect}. Participants were asked to undertake a monotonous task for as long as they liked; the base condition had the robot companion only talking to the participant, the two other conditions involved the robot also being passively touched by or actively touching the participant while they worked. The time spent undertaking the task was measured for each condition to give a quantitative measure of the impact. Similar to the work of Chidambaram et al., subjective feedback measures were also used to collect information on the participants' perception but in this case considering robot perception generally rather than specifically its use in motivation. 
+
+Goetz and Kiesler investigated differences in compliance with an exercise regime delivered by a serious or playful robot \cite{goetz2002cooperation}. The serious robot talked about health issues relating to the exercise whereas the playful robot made jokes and treated the exercises as fun. After being led through some mandatory exercises participants were asked to make up their own routine and do it for as long as they could; time spent on this routine was then recorded as quantitative measure of compliance. Participants were also asked to rate their impressions of the robot's personality and intellect in order to investigate the differences in robot perception across the two conditions.
 
 In summary there are very few previous HRI studies that deal specifically with the impact of affective communication; however, additional inspiration for quantitative measurements can be drawn from other HRI studies. How best to demonstrate the impact of affective communication is one of the key research questions considered in this project; the aim is to generate insightful data that offers some quantitative measure of impact but also captures more qualitative information to allow for interesting discussion. Considering this aim alongside the example experiments discussed here highlights human/robot task performance, human emotional state and subjective participant opinions as key measures for evaluation.
 
@@ -78,19 +84,19 @@ Application of Lim's SIRE framework to any gesture
 Pseudo-code for the SIRE framework:
 Each gesture consists of moving from base pose to the extended pose and back again. For each gesture the following key parameters were defined:
 \begin{itemize}
-\item pMin : a minimum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
-\item pMax : maximum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
-\item tExt : time for extension gesture based on average from an actor video
-\item tPos : time extended posture is held based on average from an actor video
-\item tRet : time for return gesture based on average from an actor video
-\item tMin : minimum time required to execute gesture (for safe operation)
-\item rMax : maximum time offset for irregular movements (such that gesture is still clear)
+\item $pMin$ : a minimum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
+\item $pMax$ : maximum amplitude version of the gesture described in the Cartesian co-ordinate set $[x,y,z,\alpha,\beta,\gamma]$
+\item $tExt$ : time for extension gesture based on average from an actor video
+\item $tPos$ : time extended posture is held based on average from an actor video
+\item $tRet$ : time for return gesture based on average from an actor video
+\item $tMin$ : minimum time required to execute gesture (for safe operation)
+\item $rMax$ : maximum time offset for irregular movements (such that gesture is still clear)
 \end{itemize}
 
 \subsubsection{Speed \& Intensity}
-Speed of the movement is adjusted by modifying the extension and return times passed to the path planner, tExt and tRet. The maximum times described above are multiplied by $(1-S)$ where S is the speed parameter, i.e. as speed is increased the gesture time is reduced. A maximum operator is used to compare the adjusted time with the specified minimum to ensure the movement is not too fast.
+Speed of the movement is adjusted by modifying the extension and return times passed to the path planner, tExt and tRet. The maximum times described above are multiplied by $(1-S)$ where $S$ is the speed parameter, i.e. as speed is increased the gesture time is reduced. A maximum operator is used to compare the adjusted time with the specified minimum to ensure the movement is not too fast.
 
-Intensity is applied by further reducing the extension time, $t_{1}$, in the same way as speed, by multiplication with $(1-I)$ where I is the intensity parameter. This gives the appearance of essentially accelerating gesture extension with no change to the return movement. 
+Intensity is applied by further reducing the extension time, $t_{1}$, in the same way as speed, by multiplication with $(1-I)$ where $I$ is the intensity parameter. This gives the appearance of essentially accelerating gesture extension with no change to the return movement. 
 
 \begin{equation}
 t_{1} = max[(1-S)*(1-I)*tExt,tmin]
@@ -101,7 +107,7 @@ t_{2} = max[(1-S)*tRet,tmin]
 \end{equation}
 
 \subsubsection{Regularity}
-Regularity is applied by introducing a temporal delay, $dt$, defined based on $(1-R)$ where R is the regularity parameter, between execution of the left and right arm movements in gestures which utilise both arms. Doing anything with head movements (as in Lim's original)?? Perhaps not as may be confusing given task requires movement copying - explain if this is the case.
+Regularity is applied by introducing a temporal delay, $dt$, defined based on $(1-R)$ where $R$ is the regularity parameter, between execution of the left and right arm movements in gestures which utilise both arms. Lim et al. \cite{lim2011converting} also used the $R$ value to define side-to-side head movements, this was not implemented here however due to the imitation based exercise context of the main HRI experiment. 
 \begin{equation}
 dt = (1-R)*rMax
 \end{equation}
@@ -116,12 +122,8 @@ Extent is applied by adjusting the size of the gesture between the minimum and m
 p = p_{min} + E*(p_{max} - p_{min})
 \end{equation}
 
-Positive and negative SIRE values initially set based on general design principles identified by Xu et al \cite{xu2013mood} and specific values found by Lim (cite her thesis); neutral just set as all 0.5 (medium) apart from regularity which is 1.
-
-As interaction activity is to copy gestures for a workout, regularity was not applied as could be confusing; explain this is ok because Lim's thesis showed that SIE was enough to show happiness and sadness. 
-
 \subsubsection{Setting Initial SIRE Values}
-Talk about original method of extracting from voice - something for future work and making autonomous/live (although robots now exist that supposedly monitor your emotion live).
+Lim et al. \cite{lim2011converting} originally set gesture SIRE values based on those extracted from actor speech samples; however whether this method could work for artificial speech from a text to speech generator requires further investigation outside the scope of this project. Instead, for this project, initial SIRE values were set based on some generic principles identified by Xu et al. in conjunction with specific numeric values identified by Lim [CITE HER THESIS HERE]. Generic design principles identified based on the work of Xu et al. and Lim et al. are given in Table [REF]; specific values used for initial testing are listed in table [REF]. 
 
 Generic design principles identified:
 
@@ -138,12 +140,14 @@ Actual initial values used:
 
 \begin{tabular}{|c|c|c|c|}
 \hline & Positive & Negative & Neutral \\ 
-\hline Speed & 0.8 & 0.1 & 0.5\\ 
-\hline Intensity & 0.8 & 0.1 & 0.5 \\ 
+\hline Speed & 0.8 & 0.1 & 0.4\\ 
+\hline Intensity & 0.8 & 0.1 & 0.4 \\ 
 \hline Regularity & 1.0 & 1.0 & 1.0 \\ 
-\hline Extent & 0.8 & 0.1 & 0.5\\ 
+\hline Extent & 0.8 & 0.1 & 0.4\\ 
 \hline 
 \end{tabular} 
+
+Regularity was kept at the maximum level across all conditions for two key reasons. Firstly, given the imitation based nature of the main HRI experiment, introducing any lag between arm movements or additional head wobble could be confusing to participants as it would not be part of the exercise routine and would clash (PUT BETTER WORD) with the spoken instructions. Secondly, Lim demonstrated that the $S, I $ and $E$ paramaters were sufficient to portray happiness and sadness, the two emotional conditions considered in this project, and specified that regularity is more associated with emotions such as fear and excitement [CITE THESIS]. 
 
 \subsection{Speech Generation}
 Cereproc/Cerevoice; emotion tags
@@ -152,35 +156,50 @@ Cereproc/Cerevoice; emotion tags
 Controlling NAO - both voice and speech, how timing was set etc.
 
 \section{Testing \& Validation of Emotion Expression}
-Recognition experiments: Voice Only,Gesture Only, Voice + Gesture. 15 participants.
+Two key emotion recognition experiments were carried out in order to test the initial SIRE values described above. The first tested emotion recognition in voice and gesture independently with the same set of participants whereas the second tested the combined voice and gesture as would be used in the final experiment. Testing each modality independently at first allowed for validation of the Cereproc emotional tags and the SIRE framework for gesturing, and testing the combined performance allowed for validation of the final system as intended for use in the main HRI experiment. 
 
-Voice: overall recognition about 60 \%, a lot higher than chance (a third) happy and sad easy to recognise, but neutral was significantly misclassified as happy. Reasons could be participants wanting to pick an emotion, or neutral voice could just seem slightly happy. Need to see how this compares to gestures and then gestures + voice combined. Compare to Lim/Xu. 
+Details - participant numbers, same participants for voice and gesture only, new for combined. Online video survey setup, randomised order for each participant, number of samples... Percentage recognition results for each condition are listed in Table [REF]. 
+
+\begin{tabular}{|c|c|}
+	\hline Condition & Recognition\\ 
+	\hline Voice Only & 60.4\% \\ 
+	\hline Gesture Only & 68.2\% \\ 
+	\hline Voice + Gesture & 65.0\% \\ 
+	\hline 
+\end{tabular} 
+
+Percentage recognition very similar to what Lim achieved and therefore further supports use of something like Cereproc rather than hand manipulated voice. 
 
 Give pretesting results here including the extremity thing.
+
+Chi-squared testing... all emotions were clearly distinguishable across all conditions. Overall recognition was not significantly different across the conditions. Additional analysis showed that the number of extreme emotion choices (i.e. very happy or very sad) significantly increased between the voice only and voice plus gesture conditions; but not between the gesture only and voice plus gesture conditions. This is discussed further in Section [REF DISCUSSION SECTION]. 
 
 \section{Human Robot Interaction Experiment Design}
 \subsection{Interaction Activity \& Context}
 
-Describe activity and then explain reasoning:
+An imitation based robot-led exercise session was chosen to provide a contextualised HRI activity for testing the impact of affective robot communication. An imitation based activity was preferred as it inherently encourages the participant to focus on the robot's gestures; Xu et al. used a gesture imitation game for this reason \cite{xu2014robot} ... [however there is some psychological evidence that...emotional impact of winning/losing] The use of robots as an exercise instructor has been extensively investigated [REVIEW PAPER or SOME REFS], specifically relevant to this project is Mataric's work on a robotic arm exercise instructor for the elderly [REF] which essentially results in the same robot interaction as Xu et al.'s setup but contextualised as a workout rather than a game. [maybe something about therefore allowing for comparison to Xu's results too? - also talk about how the specific gestures and spoken commands used matched Xu's perfectly for maximum comparison ability]
 
-\begin{itemize}
-	\item need monotonous/repetitive task to test whether motivation/performance improves inspired by Nakagawa et al. \cite{nakagawa2011effect}.
-	\item wanted to build on work of Xu et al which used imitation game - good way of getting participants to focus on the robot's gestures indirectly
-	\item however one possible issue with use of a game based interaction when looking for emotional impact is the actual emotional impact of doing well/badly in the game (find a ref for this)
-	\item so instead, inspired by mataric's work on the use of robots in encouraging physical exercise and therapy compliance (especially the one where the robot does a gesture which the participant has to copy!), decided to contextualise the gesture imitation as a workout rather than a game
-	\item this also means results will be particularly relevant to the field of assisted living robots
-\end{itemize}
+[gesture round image showing spoken instructions]
+
+[mandatory versus voluntary round image]
+
+Other work by Mataric investigated the effect of robot personality [was it robot personality or human personality? Check this i think it was human personality actually...] on participant's motivation to do repetitive and monotonous stroke exercises [REF]. Participants were asked to do as much of each exercise as they felt necessary and this number was measured as a quantitative measure of motivation; similar techniques were also employed by .... [REFs]. Therefore it was decided that the robot-led exercise session would consist of one mandatory gesture set (in order to allow for contagion to possibly occur) followed by a series of voluntary rounds which could provide a quantitative measure of motivation. [this is also inline with those other papers from lit review ie touch and persuasion papers]
+
+[all the gory details in terms of gesture set randomisation, round randomisation etc etc...]
 
 \subsection{Hypotheses}
 \begin{itemize}
 	\item[H1] Participants in the valenced conditions will demonstrate an emotional state of matching valence after interacting with the robot, (i.e. emotion contagion will occur)
 	\item[H2] Participants will recognise the intended emotional state of the robot when interacting with it
 	\item[H3] Emotion expression will have an impact on human motivation and enjoyment 
-	\item[H4] Emotion expression will have an impact on robot perception (based on Chidambaram et al \cite{chidambaram2012designing})
+	\item[H4] Emotion expression will have an impact on robot perception
 
 \end{itemize}
 
 \subsection{Measures}
+
+Something about quantitative measure already described above but also wanted to look at impact on perception and provide opportunity for qualitative feedback...
+
 \begin{tabular}{|l|p{7cm}|p{3.8cm}|}
 \hline Feature of Interest & Related Measures & Relevant Hypotheses \\ 
 \hline Emotion Contagion & Word completion task \newline SAM survey (robot and self) & H1 \newline H2 \\ 
@@ -200,7 +219,7 @@ Something about design of word completion activity and reason for using that as 
 	
 A total of 62 participants were recruited for the experiment with the data for XX being retained; one participant's data was discarded due to a fire alarm disrupting the experiment... Each participant was assigned randomly to one of the three conditions resulting in 20 participants per condition (or 21 for one of them if keep p61's data??).  
 
-Participants were first asked to read through an experiment information sheet which contained... [note no information about emotion or that exercise rounds would be noted down at this point] and to sign a consent form. A demo was then given to show the participants what to expect and how to interact with the robot [touch to continue used due to lack of confidence in speech recognition]. Again it was pointed out to the participants that the number of exercise rounds was voluntary and they could stop at any time. Once the robot was seen to be working correctly, the experimenter left the room until the exercise session was complete (either because the participant stopped or the maximum number of rounds was reached.)
+Participants were first asked to read through an experiment information sheet which contained... [note no information about emotion or that exercise rounds would be noted down at this point] and to sign a consent form. A demo was then given to show the participants what to expect and how to interact with the robot [touch to continue used due to lack of confidence in speech recognition]. Again it was pointed out to the participants that the number of exercise rounds was voluntary and they could stop at any time. Once the robot was seen to be working correctly, the experimenter left the room until the exercise session was complete; either because the participant stopped or the maximum number of rounds was reached.
 
 [robot programme diagram from previous]
 
@@ -209,21 +228,32 @@ Chi squared for word completion because ... and list results
 
 Anova for voluntary rounds, emotional robot state (is it worth doing that in chi squared to match sire pre-test though?), self state and all likert q's because... and list results
 
+Qualitative data from open ended question at end - look at use of adjectives across conditions, note people saying emotion questions were difficult as they 'knew it couldn't have emotions' 
+
 \chapter{Discussion}
+
+Not sure where this fits but definitely want some discussion on people's expectations and how this changes their judgements i.e. the robot must be neutral because it is a robot and robots dont have emotions (qualitative data which is also discussed in 'how robots should give advice' paper as a reason for the same behaviour done by a robot and human leading to different responses). 
 
 \section{Emotion Recognition in Robot Gesture and Voice}
 \begin{itemize}
 	\item perceived extremity increased by use of gestures - relevant to telepresence etc
-	\item why was emotion recognised correctly in pre test but not exercise experiment? Relative difference? How does this contrast to Lim's result?
+	\item why was emotion recognised correctly in pre test but not exercise experiment? Relative difference? How does this contrast to Lim's result? Can offer quite a lot of discussion on this
 \end{itemize}
 
 \section{Robot to Human Emotion Contagion}
 
 \section{Impact of Affective Communication on HRI}
+Perception and motivation - liket scale Q's and voluntary rounds completed
 
 \chapter{Conclusions}
 
+Perhaps robot needs to be more explicit about it's emotional state in order for emotion recognition to occur, at least if the situation is one in which emotions wouldn't really be expected. 
+
 \section{Further Work}
+
+A multiple interaction experiment whereby the participant is going to see the different emotional states of the robot. 
+
+An experiment where the robot is explicit about its emotional state to see impact on persuasiveness and contagion - could almost do exactly the same experiment but with explicit emotional discussion at start or some context for that or something.
 
 \bibliographystyle{unsrt}
 \bibliography{MyReading}
