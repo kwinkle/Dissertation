@@ -19,12 +19,12 @@
 \contentsline {subsection}{\numberline {3.3.1}Interaction Activity \& Context}{12}
 \contentsline {subsection}{\numberline {3.3.2}Hypotheses}{13}
 \contentsline {subsection}{\numberline {3.3.3}Measures}{13}
-\contentsline {subsubsection}{Word Completion Test}{13}
-\contentsline {subsection}{\numberline {3.3.4}Experimental Procedure}{13}
-\contentsline {chapter}{\numberline {4}Results}{15}
-\contentsline {chapter}{\numberline {5}Discussion}{16}
-\contentsline {section}{\numberline {5.1}Emotion Recognition in Robot Gesture and Voice}{16}
-\contentsline {section}{\numberline {5.2}Robot to Human Emotion Contagion}{16}
-\contentsline {section}{\numberline {5.3}Impact of Affective Communication on HRI}{16}
-\contentsline {chapter}{\numberline {6}Conclusions}{17}
-\contentsline {section}{\numberline {6.1}Further Work}{17}
+\contentsline {subsubsection}{Word Completion Test}{14}
+\contentsline {subsection}{\numberline {3.3.4}Experimental Procedure}{14}
+\contentsline {chapter}{\numberline {4}Results}{16}
+\contentsline {chapter}{\numberline {5}Discussion}{17}
+\contentsline {section}{\numberline {5.1}Emotion Recognition in Robot Gesture and Voice}{17}
+\contentsline {section}{\numberline {5.2}Robot to Human Emotion Contagion}{17}
+\contentsline {section}{\numberline {5.3}Impact of Affective Communication on HRI}{17}
+\contentsline {chapter}{\numberline {6}Conclusions}{18}
+\contentsline {section}{\numberline {6.1}Further Work}{18}

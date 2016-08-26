@@ -147,7 +147,7 @@ Actual initial values used:
 \hline 
 \end{tabular} 
 
-Regularity was kept at the maximum level across all conditions for two key reasons. Firstly, given the imitation based nature of the main HRI experiment, introducing any lag between arm movements or additional head wobble could be confusing to participants as it would not be part of the exercise routine and would clash (PUT BETTER WORD) with the spoken instructions. Secondly, Lim demonstrated that the $S, I $ and $E$ paramaters were sufficient to portray happiness and sadness, the two emotional conditions considered in this project, and specified that regularity is more associated with emotions such as fear and excitement [CITE THESIS]. 
+Regularity was kept at the maximum level across all conditions for two key reasons. Firstly, given the imitation based nature of the main HRI experiment, introducing any lag between arm movements or additional head wobble could be confusing to participants as it would not be part of the exercise routine and would diverge from the spoken instructions. Secondly, Lim demonstrated that the $S, I $ and $E$ paramaters were sufficient to portray happiness and sadness, the two emotional conditions considered in this project, and specified that regularity is more associated with emotions such as fear and excitement [CITE THESIS]. 
 
 \subsection{Speech Generation}
 Cereproc/Cerevoice; emotion tags
@@ -156,7 +156,7 @@ Cereproc/Cerevoice; emotion tags
 Controlling NAO - both voice and speech, how timing was set etc.
 
 \section{Testing \& Validation of Emotion Expression}
-Two key emotion recognition experiments were carried out in order to test the initial SIRE values described above. The first tested emotion recognition in voice and gesture independently with the same set of participants whereas the second tested the combined voice and gesture as would be used in the final experiment. Testing each modality independently at first allowed for validation of the Cereproc emotional tags and the SIRE framework for gesturing, and testing the combined performance allowed for validation of the final system as intended for use in the main HRI experiment. 
+Three emotion recognition experiments were carried out in order to test the initial SIRE values described above. The first two tested emotion recognition in voice only and gesture only whereas the third tested the combined voice and gesture as would be used in the final experiment. Testing each modality independently at first allowed for validation of the Cereproc emotional tags and the SIRE framework for gesturing, and testing the combined performance allowed for validation of the final system as intended for use in the main HRI experiment. 
 
 Details - participant numbers, same participants for voice and gesture only, new for combined. Online video survey setup, randomised order for each participant, number of samples... Percentage recognition results for each condition are listed in Table [REF]. 
 
@@ -185,7 +185,7 @@ An imitation based robot-led exercise session was chosen to provide a contextual
 
 Other work by Mataric investigated the effect of robot personality [was it robot personality or human personality? Check this i think it was human personality actually...] on participant's motivation to do repetitive and monotonous stroke exercises [REF]. Participants were asked to do as much of each exercise as they felt necessary and this number was measured as a quantitative measure of motivation; similar techniques were also employed by .... [REFs]. Therefore it was decided that the robot-led exercise session would consist of one mandatory gesture set (in order to allow for contagion to possibly occur) followed by a series of voluntary rounds which could provide a quantitative measure of motivation. [this is also inline with those other papers from lit review ie touch and persuasion papers]
 
-[all the gory details in terms of gesture set randomisation, round randomisation etc etc...]
+[maybe a new section called implementation or method or materials or something? all the gory details in terms of gesture set randomisation, round randomisation, order of survey questions (word completion test, q's on enjoyment/good exercise instructor, bored/tiredness, manipulation and own emotion check) etc etc...]
 
 \subsection{Hypotheses}
 \begin{itemize}
@@ -193,8 +193,9 @@ Other work by Mataric investigated the effect of robot personality [was it robot
 	\item[H2] Participants will recognise the intended emotional state of the robot when interacting with it
 	\item[H3] Emotion expression will have an impact on human motivation and enjoyment 
 	\item[H4] Emotion expression will have an impact on robot perception
-
 \end{itemize}
+
+[Reference all the literature as to why these are expected and any interesting previous results]
 
 \subsection{Measures}
 
@@ -202,26 +203,28 @@ Something about quantitative measure already described above but also wanted to 
 
 \begin{tabular}{|l|p{7cm}|p{3.8cm}|}
 \hline Feature of Interest & Related Measures & Relevant Hypotheses \\ 
-\hline Emotion Contagion & Word completion task \newline SAM survey (robot and self) & H1 \newline H2 \\ 
-\hline Impact on HRI & Number of exercise rounds voluntarily completed \newline Enjoyment Likert scale \newline Reason for stopping Likert scale \newline Perceived usefulness Likert scale \newline Selected Godspeed Questions &  H3 \newline \newline H3 \newline H3 \newline H4 \newline H4 \\
+\hline Emotion Contagion & Word completion task \newline Emotional state (of robot and self) & H1 \newline H1 \& H2 \\ 
+\hline Impact on HRI & Number of exercise rounds voluntarily completed \newline Enjoyment Likert scale \newline Reason for stopping Likert scale \newline Perceived usefulness Likert scale \newline Selected Godspeed Questions \newline Open feedback/comments &  H3 \newline \newline H3 \newline H3 \newline H4 \newline H4 \newline H4 \\
 \hline 
 \end{tabular} 
 
 \subsubsection{Word Completion Test}
-Something about design of word completion activity and reason for using that as a mood measure compared to other mood measures. 
+Word completion tests require the participant being asked to complete a word stem (a word with one or more missing letters) which has multiple potential completions with the first letter that comes to mind. Such tests have been used in HRI studies to measure death thought accessibility \cite{koschate2016overcoming} [more REFs] but also in human psychology studies in order to measure emotional state e.g. \cite{dewall2007terror}. [COMPARISON TO OTHER MOOD MEASURE METHODS]
+
+A word stem list was generated using the [HOW TO REF THE ANEW THING?]. Firstly all words with a valence greater than 7 (positive), less than 3 (negative) and exactly 5 (neutral) were identified. Possible word stems and alternative completions were then considered for each of the valenced words to find word stems which had one valenced completion (positive or negative only) and one or more neutral completions. For the neutral words word stems with only neutral completions were selected. Finally the word frequencies of these alternative completions were compared and all word stems with a difference greater than 1 in any completion were discarded. 12 neutral, 6 positive and 6 negative words were selected from the remaining pool to generate an initial word list. 
+
+A pretest [details here e.g. N = 8?] was then carried out  to examine completion frequencies of the valenced words in a relatively neutral context. Valenced word stems which were completed by more than 50\% of participants were discarded and replaced with others from the pool described above. The final word stem list and possible completions is given below [or in appendix?] [Something about how proper validation would work and that this is further work to make the tool a more validated measure etc] 
 
 \subsection{Experimental Procedure}
-\begin{itemize}
-	\item participants briefed and given a demo of what to expect, then once robot was seen to be working correctly and giving instructions experimenter left the room before exercise started
-	\item IMPORTANT - participants were told that exercise could be stopped at any time and it was up to them how much they wanted to complete
-	\item directly after the interaction participants completed an online survey ordered as follows: word completion test, q's on enjoyment/good exercise instructor, bored/tiredness, manipulation and own emotion check
-	\item 60 participants, 20 per condition
-	
-A total of 62 participants were recruited for the experiment with the data for XX being retained; one participant's data was discarded due to a fire alarm disrupting the experiment... Each participant was assigned randomly to one of the three conditions resulting in 20 participants per condition (or 21 for one of them if keep p61's data??).  
+A total of 62 participants (18 male and 44 female) aged between 21 and 60 (Mean = 31.7 SD = 8.72) were recruited for the experiment and randomly assigned to one of the three conditions resulting in 21 subjects in the happy and neutral conditions and 20 subjects in the sad condition. The quantitative data for one subject in the happy condition was discarded due to a fire alarm disrupting the experiment. Participants were offered a $£$5 Amazon voucher as compensation for taking part in the experiment. 
 
-Participants were first asked to read through an experiment information sheet which contained... [note no information about emotion or that exercise rounds would be noted down at this point] and to sign a consent form. A demo was then given to show the participants what to expect and how to interact with the robot [touch to continue used due to lack of confidence in speech recognition]. Again it was pointed out to the participants that the number of exercise rounds was voluntary and they could stop at any time. Once the robot was seen to be working correctly, the experimenter left the room until the exercise session was complete; either because the participant stopped or the maximum number of rounds was reached.
+Participants were first asked to read through an experiment information sheet which stated that the NAO was programmed to guide them through an arm exercise session typically used by older adults and the disabled to keep fit. It was explained that each round of exercise consisted of 4 gestures and that the first round of exercise was mandatory, but after that NAO would ask the participant if they wanted to continue or stop and that they could stop exercising whenever they wanted to; this was highlighted in bold text. 
 
-[robot programme diagram from previous]
+A demo was then given to show the participants what to expect and how to safely interact with the robot in terms of touching the head or foot to indicate they wanted to continue or end the exercise session respectively. At this point it was verbally pointed out again to the participants that all exercise rounds after the first were voluntary and they could stop at any time. The experimenter than launched the main experiment script and left the room once the robot was seen to be working correctly, returning when the exercise session was complete, either because the participant chose to end the session or the maximum number of rounds was reached.
+
+[robot programme diagram from previous, unless put in earlier in method/details etc]
+
+Once the exercise session was complete participants were asked to complete an online survey containing the word completion task, all Likert and Godspeed questions and robot/self emotional state questions. Participants were then asked to read a debrief sheet which explained the underlying study of affective communication and its impact on HRI with a note not to discuss this with any other potential participants until after they had also completed the experiment. Participants were then given a final chance to ask any questions about or discuss the research further with a note made of any additional qualitative feedback. 
 
 \chapter{Results}
 Chi squared for word completion because ... and list results

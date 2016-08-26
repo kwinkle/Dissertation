@@ -201,4 +201,23 @@ Kayako Nakagawa, Masahiro Shiomi, Kazuhiko Shinozawa, Reo Matsumura, Hiroshi
 \newblock In {\em Human-Robot Interaction (HRI), 2011 6th ACM/IEEE
   International Conference on}, pages 465--472. IEEE, 2011.
 
+\bibitem{goetz2002cooperation}
+Jennifer Goetz and Sara Kiesler.
+\newblock Cooperation with a robotic assistant.
+\newblock In {\em CHI'02 Extended Abstracts on Human Factors in Computing
+  Systems}, pages 578--579. ACM, 2002.
+
+\bibitem{koschate2016overcoming}
+Miriam Koschate, Richard Potter, Paul Bremner, and Mark Levine.
+\newblock Overcoming the uncanny valley: Displays of emotions reduce the
+  uncanniness of humanlike robots.
+\newblock In {\em The Eleventh ACM/IEEE International Conference on Human Robot
+  Interation}, pages 359--365. IEEE Press, 2016.
+
+\bibitem{dewall2007terror}
+C~Nathan DeWall and Roy~F Baumeister.
+\newblock From terror to joy automatic tuning to positive affective information
+  following mortality salience.
+\newblock {\em Psychological Science}, 18(11):984--990, 2007.
+
 \end{thebibliography}
