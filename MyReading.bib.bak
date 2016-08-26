@@ -294,6 +294,17 @@
   Timestamp                = {2016.04.05}
 }
 
+@InProceedings{goetz2002cooperation,
+  author =       {Goetz, Jennifer and Kiesler, Sara},
+  title =        {Cooperation with a robotic assistant},
+  booktitle =    {CHI'02 Extended Abstracts on Human Factors in Computing Systems},
+  year =         {2002},
+  pages =        {578--579},
+  organization = {ACM},
+  review =       {Looked at compliance with a playful versus serious robot (achieved via difference in actual words spoken) found that playful robot was preferred but compliance was better with},
+  timestamp =    {2016-08-25}
+}
+
 @InProceedings{goetz2003matching,
   author =       {Goetz, Jennifer and Kiesler, Sara and Powers, Aaron},
   title =        {Matching robot appearance and behavior to tasks to improve human-robot cooperation},
@@ -850,18 +861,17 @@
 }
 
 @Article{seibert1991irrelevant,
-  Title                    = {Irrelevant thoughts, emotional mood states, and cognitive task performance},
-  Author                   = {Seibert, Pennie S and Ellis, Henry C},
-  Journal                  = {Memory \& Cognition},
-  Year                     = {1991},
-  Number                   = {5},
-  Pages                    = {507--513},
-  Volume                   = {19},
-
-  Owner                    = {katiewinkle},
-  Publisher                = {Springer},
-  Review                   = {Demonstrated that participants induced into happy/sad performed worse on a memory recall task of random 6 letter strings than those in a neutral condition. Suggested this is down to an increase in 'irrelevant thoughts' in emotional conditions compared to neutral.},
-  Timestamp                = {2016.05.03}
+  author =    {Seibert, Pennie S and Ellis, Henry C},
+  title =     {Irrelevant thoughts, emotional mood states, and cognitive task performance},
+  journal =   {Memory \& Cognition},
+  year =      {1991},
+  volume =    {19},
+  number =    {5},
+  pages =     {507--513},
+  owner =     {katiewinkle},
+  publisher = {Springer},
+  review =    {Demonstrated that participants induced into happy/sad performed worse on a memory recall task of random 6 letter strings than those in a neutral condition. Suggested this is down to an increase in 'irrelevant thoughts' in emotional conditions compared to neutral. A possible measure of mood?},
+  timestamp = {2016.05.03}
 }
 
 @Article{shariff2011emotion,
