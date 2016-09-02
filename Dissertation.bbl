@@ -187,6 +187,13 @@ Wing-Yue~Geoffrey Louie, Derek McColl, and Goldie Nejat.
   at a long-term care facility.
 \newblock In {\em RO-MAN, 2012 IEEE}, pages 345--350. IEEE, 2012.
 
+\bibitem{gockley2006encouraging}
+Rachel Gockley and Maja~J Mataric.
+\newblock Encouraging physical therapy compliance with a hands-off mobile
+  robot.
+\newblock In {\em Proceedings of the 1st ACM SIGCHI/SIGART conference on
+  Human-robot interaction}, pages 150--155. ACM, 2006.
+
 \bibitem{chidambaram2012designing}
 Vijay Chidambaram, Yueh-Hsuan Chiang, and Bilge Mutlu.
 \newblock Designing persuasive robots: how robots might persuade people using
@@ -207,6 +214,35 @@ Jennifer Goetz and Sara Kiesler.
 \newblock In {\em CHI'02 Extended Abstracts on Human Factors in Computing
   Systems}, pages 578--579. ACM, 2002.
 
+\bibitem{Angeli2014}
+Angelica Lim.
+\newblock {\em MEI: Multimodal Emotional Intelligence}.
+\newblock PhD thesis, Kyoto University, 2014.
+
+\bibitem{ward1988promotional}
+James~C Ward, Ronald~P Hill, and Meryl~P Gardner.
+\newblock Promotional games: the effects of participation on mood, attitude,
+  and information processing.
+\newblock {\em NA-Advances in Consumer Research Volume 15}, 1988.
+
+\bibitem{fasola2010robot}
+Juan Fasola and Maja~J Matari{\'c}.
+\newblock Robot exercise instructor: a socially assistive robot system to
+  monitor and encourage physical exercise for the elderly.
+\newblock In {\em RO-MAN, 2010 IEEE}, pages 416--421. IEEE, 2010.
+
+\bibitem{tapus2008user}
+Adriana Tapus, Cristian {\c{T}}{\u{a}}pu{\c{s}}, and Maja~J Matari{\'c}.
+\newblock User-robot personality matching and assistive robot behavior
+  adaptation for post-stroke rehabilitation therapy.
+\newblock {\em Intelligent Service Robotics}, 1(2):169--183, 2008.
+
+\bibitem{bartneck2009measurement}
+Christoph Bartneck, Dana Kuli{\'c}, Elizabeth Croft, and Susana Zoghbi.
+\newblock Measurement instruments for the anthropomorphism, animacy,
+  likeability, perceived intelligence, and perceived safety of robots.
+\newblock {\em International journal of social robotics}, 1(1):71--81, 2009.
+
 \bibitem{koschate2016overcoming}
 Miriam Koschate, Richard Potter, Paul Bremner, and Mark Levine.
 \newblock Overcoming the uncanny valley: Displays of emotions reduce the
@@ -219,5 +255,29 @@ C~Nathan DeWall and Roy~F Baumeister.
 \newblock From terror to joy automatic tuning to positive affective information
   following mortality salience.
 \newblock {\em Psychological Science}, 18(11):984--990, 2007.
+
+\bibitem{seibert1991irrelevant}
+Pennie~S Seibert and Henry~C Ellis.
+\newblock Irrelevant thoughts, emotional mood states, and cognitive task
+  performance.
+\newblock {\em Memory \& Cognition}, 19(5):507--513, 1991.
+
+\bibitem{isen1987positive}
+Alice~M Isen, Kimberly~A Daubman, and Gary~P Nowicki.
+\newblock Positive affect facilitates creative problem solving.
+\newblock {\em Journal of personality and social psychology}, 52(6):1122, 1987.
+
+\bibitem{bradley1999affective}
+Margaret~M Bradley and Peter~J Lang.
+\newblock Affective norms for english words (anew): Instruction manual and
+  affective ratings.
+\newblock Technical report, Technical report C-1, the center for research in
+  psychophysiology, University of Florida, 1999.
+
+\bibitem{kennedy2016social}
+James Kennedy, Paul Baxter, Emmanuel Senft, and Tony Belpaeme.
+\newblock Social robot tutoring for child second language learning.
+\newblock In {\em The Eleventh ACM/IEEE International Conference on Human Robot
+  Interation}, pages 231--238. IEEE Press, 2016.
 
 \end{thebibliography}
