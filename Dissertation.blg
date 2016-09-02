@@ -1,48 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: Dissertation.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Dissertation.aux
 The style file: unsrt.bst
 Database file #1: MyReading.bib
 Warning--can't use both author and editor fields in lab2011
-You've used 46 entries,
-            1791 wiz_defined-function locations,
-            721 strings with 12535 characters,
-and the built_in function-call counts, 12982 in all, are:
-= -- 1262
-> -- 487
-< -- 18
-+ -- 180
-- -- 134
-* -- 858
-:= -- 1898
-add.period$ -- 154
-call.type$ -- 46
-change.case$ -- 43
-chr.to.int$ -- 0
-cite$ -- 47
-duplicate$ -- 616
-empty$ -- 1268
-format.name$ -- 134
-if$ -- 3023
-int.to.chr$ -- 0
-int.to.str$ -- 46
-missing$ -- 47
-newline$ -- 233
-num.names$ -- 46
-pop$ -- 151
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 334
-stack$ -- 0
-substring$ -- 1016
-swap$ -- 216
-text.length$ -- 18
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 1
-while$ -- 136
-width$ -- 48
-write$ -- 521
 (There was 1 warning)

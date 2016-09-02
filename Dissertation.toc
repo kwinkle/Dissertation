@@ -1,34 +1,38 @@
 \contentsline {section}{\numberline {0.1}Abstract}{1}
 \contentsline {section}{\numberline {0.2}Acknowledgements}{1}
-\contentsline {chapter}{\numberline {1}Introduction}{3}
-\contentsline {chapter}{\numberline {2}Literature Review}{4}
-\contentsline {section}{\numberline {2.1}IET and Emotional Expression in Humans}{4}
-\contentsline {subsection}{\numberline {2.1.1}IET and its Impact on Human Behaviour}{4}
-\contentsline {subsection}{\numberline {2.1.2}Human Displays of Emotion}{5}
-\contentsline {section}{\numberline {2.2}IET and Emotional Expression in Robots}{6}
-\contentsline {section}{\numberline {2.3}Experimentally Evaluating the Impact of Robot Affect}{7}
-\contentsline {chapter}{\numberline {3}Research Methodology}{10}
-\contentsline {section}{\numberline {3.1}Generating Emotional Expressions on NAO}{10}
-\contentsline {subsection}{\numberline {3.1.1}Gesture Modification: SIRE Framework}{11}
-\contentsline {subsubsection}{Speed \& Intensity}{12}
-\contentsline {subsubsection}{Regularity}{12}
-\contentsline {subsubsection}{Extent}{12}
-\contentsline {subsubsection}{Setting Initial SIRE Values}{12}
-\contentsline {subsection}{\numberline {3.1.2}Speech Generation}{14}
-\contentsline {subsection}{\numberline {3.1.3}Choregraphe}{14}
-\contentsline {section}{\numberline {3.2}Testing \& Validation of Emotion Expression}{14}
-\contentsline {section}{\numberline {3.3}Human Robot Interaction Experiment Design}{15}
-\contentsline {subsection}{\numberline {3.3.1}Interaction Context}{15}
-\contentsline {subsection}{\numberline {3.3.2}Robot Script}{16}
-\contentsline {subsection}{\numberline {3.3.3}Hypotheses \& Measures}{18}
-\contentsline {subsubsection}{Word Completion Test}{20}
-\contentsline {subsection}{\numberline {3.3.4}Experimental Procedure}{21}
-\contentsline {chapter}{\numberline {4}Results}{23}
-\contentsline {section}{\numberline {4.1}Robot to Human Emotion Contagion}{23}
-\contentsline {section}{\numberline {4.2}Impact of Affective Communication on HRI}{23}
-\contentsline {chapter}{\numberline {5}Discussion}{24}
-\contentsline {section}{\numberline {5.1}Emotion Recognition in Robot Gesture and Voice}{24}
-\contentsline {section}{\numberline {5.2}Robot to Human Emotion Contagion}{25}
-\contentsline {section}{\numberline {5.3}Impact of Affective Communication on HRI}{25}
-\contentsline {chapter}{\numberline {6}Conclusions}{26}
-\contentsline {section}{\numberline {6.1}Further Work}{26}
+\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {chapter}{\numberline {2}Literature Review}{5}
+\contentsline {section}{\numberline {2.1}IET and Emotional Expression in Humans}{5}
+\contentsline {subsection}{\numberline {2.1.1}IET and its Impact on Human Behaviour}{5}
+\contentsline {subsection}{\numberline {2.1.2}Human Displays of Emotion}{6}
+\contentsline {section}{\numberline {2.2}IET and Emotional Expression in Robots}{7}
+\contentsline {section}{\numberline {2.3}Experimentally Evaluating the Impact of Robot Affect}{8}
+\contentsline {chapter}{\numberline {3}Research Methodology}{11}
+\contentsline {section}{\numberline {3.1}Generating Emotional Expressions on NAO}{11}
+\contentsline {subsection}{\numberline {3.1.1}Gesture Modification: SIRE Framework}{12}
+\contentsline {subsubsection}{Speed \& Intensity}{13}
+\contentsline {subsubsection}{Regularity}{13}
+\contentsline {subsubsection}{Extent}{13}
+\contentsline {subsubsection}{Setting Initial SIRE Values}{13}
+\contentsline {subsection}{\numberline {3.1.2}Speech Generation}{15}
+\contentsline {subsection}{\numberline {3.1.3}Choregraphe}{15}
+\contentsline {section}{\numberline {3.2}Testing \& Validation of Emotion Expression}{15}
+\contentsline {section}{\numberline {3.3}Human Robot Interaction Experiment Design}{16}
+\contentsline {subsection}{\numberline {3.3.1}Interaction Context}{16}
+\contentsline {subsection}{\numberline {3.3.2}Robot Script}{17}
+\contentsline {subsection}{\numberline {3.3.3}Hypotheses \& Measures}{19}
+\contentsline {subsubsection}{Word Completion Test}{21}
+\contentsline {subsection}{\numberline {3.3.4}Experimental Procedure}{22}
+\contentsline {chapter}{\numberline {4}Results}{24}
+\contentsline {section}{\numberline {4.1}Robot to Human Emotion Contagion}{24}
+\contentsline {subsection}{\numberline {4.1.1}Robot Emotion Recognition}{24}
+\contentsline {subsection}{\numberline {4.1.2}Human Mood Measures}{24}
+\contentsline {section}{\numberline {4.2}Impact of Affective Communication on HRI}{26}
+\contentsline {subsection}{\numberline {4.2.1}Voluntary Exercise Rounds \& Closed Survey Questions}{26}
+\contentsline {subsection}{\numberline {4.2.2}Open Question Qualitative Data}{26}
+\contentsline {chapter}{\numberline {5}Discussion}{27}
+\contentsline {section}{\numberline {5.1}Emotion Recognition in Robot Gesture and Voice}{27}
+\contentsline {section}{\numberline {5.2}Robot to Human Emotion Contagion}{28}
+\contentsline {section}{\numberline {5.3}Impact of Affective Communication on HRI}{28}
+\contentsline {chapter}{\numberline {6}Conclusions}{29}
+\contentsline {section}{\numberline {6.1}Further Work}{29}
