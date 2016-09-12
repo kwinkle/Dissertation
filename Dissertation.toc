@@ -1,38 +1,48 @@
 \contentsline {section}{\numberline {0.1}Abstract}{1}
 \contentsline {section}{\numberline {0.2}Acknowledgements}{1}
 \contentsline {chapter}{\numberline {1}Introduction}{4}
-\contentsline {chapter}{\numberline {2}Literature Review}{5}
-\contentsline {section}{\numberline {2.1}IET and Emotional Expression in Humans}{5}
-\contentsline {subsection}{\numberline {2.1.1}IET and its Impact on Human Behaviour}{5}
-\contentsline {subsection}{\numberline {2.1.2}Human Displays of Emotion}{6}
-\contentsline {section}{\numberline {2.2}IET and Emotional Expression in Robots}{7}
-\contentsline {section}{\numberline {2.3}Experimentally Evaluating the Impact of Robot Affect}{8}
-\contentsline {chapter}{\numberline {3}Research Methodology}{11}
-\contentsline {section}{\numberline {3.1}Generating Emotional Expressions on NAO}{11}
-\contentsline {subsection}{\numberline {3.1.1}Gesture Modification: SIRE Framework}{12}
-\contentsline {subsubsection}{Speed \& Intensity}{13}
-\contentsline {subsubsection}{Regularity}{13}
-\contentsline {subsubsection}{Extent}{13}
-\contentsline {subsubsection}{Setting Initial SIRE Values}{13}
-\contentsline {subsection}{\numberline {3.1.2}Speech Generation}{15}
-\contentsline {subsection}{\numberline {3.1.3}Choregraphe}{15}
-\contentsline {section}{\numberline {3.2}Testing \& Validation of Emotion Expression}{15}
-\contentsline {section}{\numberline {3.3}Human Robot Interaction Experiment Design}{16}
-\contentsline {subsection}{\numberline {3.3.1}Interaction Context}{16}
-\contentsline {subsection}{\numberline {3.3.2}Robot Script}{17}
-\contentsline {subsection}{\numberline {3.3.3}Hypotheses \& Measures}{19}
-\contentsline {subsubsection}{Word Completion Test}{21}
-\contentsline {subsection}{\numberline {3.3.4}Experimental Procedure}{22}
-\contentsline {chapter}{\numberline {4}Results}{24}
-\contentsline {section}{\numberline {4.1}Robot to Human Emotion Contagion}{24}
-\contentsline {subsection}{\numberline {4.1.1}Robot Emotion Recognition}{24}
-\contentsline {subsection}{\numberline {4.1.2}Human Mood Measures}{24}
-\contentsline {section}{\numberline {4.2}Impact of Affective Communication on HRI}{26}
-\contentsline {subsection}{\numberline {4.2.1}Voluntary Exercise Rounds \& Closed Survey Questions}{26}
-\contentsline {subsection}{\numberline {4.2.2}Open Question Qualitative Data}{26}
-\contentsline {chapter}{\numberline {5}Discussion}{27}
-\contentsline {section}{\numberline {5.1}Emotion Recognition in Robot Gesture and Voice}{27}
-\contentsline {section}{\numberline {5.2}Robot to Human Emotion Contagion}{28}
-\contentsline {section}{\numberline {5.3}Impact of Affective Communication on HRI}{28}
-\contentsline {chapter}{\numberline {6}Conclusions}{29}
-\contentsline {section}{\numberline {6.1}Further Work}{29}
+\contentsline {section}{\numberline {1.1}Motivation}{4}
+\contentsline {section}{\numberline {1.2}Problem Statement}{6}
+\contentsline {section}{\numberline {1.3}Aims and Objectives}{7}
+\contentsline {subsection}{\numberline {1.3.1}Aims}{7}
+\contentsline {subsection}{\numberline {1.3.2}Objectives}{7}
+\contentsline {section}{\numberline {1.4}Work Summary}{8}
+\contentsline {chapter}{\numberline {2}Literature Review}{10}
+\contentsline {section}{\numberline {2.1}IET and Emotional Expression in Humans}{10}
+\contentsline {subsection}{\numberline {2.1.1}IET and its Impact on Human Behaviour}{10}
+\contentsline {subsection}{\numberline {2.1.2}Human Displays of Emotion}{12}
+\contentsline {section}{\numberline {2.2}Emotional Expression in Robots}{13}
+\contentsline {section}{\numberline {2.3}Experimentally Evaluating the Impact of Robot Affect}{14}
+\contentsline {chapter}{\numberline {3}Research Methodology}{17}
+\contentsline {section}{\numberline {3.1}Generating Emotional Expressions on NAO}{17}
+\contentsline {subsection}{\numberline {3.1.1}Gesture Modification: SIRE Framework}{18}
+\contentsline {subsubsection}{Speed \& Intensity}{19}
+\contentsline {subsubsection}{Regularity}{19}
+\contentsline {subsubsection}{Extent}{20}
+\contentsline {subsubsection}{Setting Initial SIRE Values}{20}
+\contentsline {subsection}{\numberline {3.1.2}Speech Generation}{21}
+\contentsline {subsection}{\numberline {3.1.3}Choregraphe}{22}
+\contentsline {section}{\numberline {3.2}Testing \& Validation of Emotion Expression}{22}
+\contentsline {section}{\numberline {3.3}Human Robot Interaction Experiment Design}{23}
+\contentsline {subsection}{\numberline {3.3.1}Interaction Context}{23}
+\contentsline {subsection}{\numberline {3.3.2}Robot Script}{25}
+\contentsline {subsection}{\numberline {3.3.3}Hypotheses \& Measures}{27}
+\contentsline {subsubsection}{Word Completion Test}{29}
+\contentsline {subsection}{\numberline {3.3.4}Experimental Procedure}{30}
+\contentsline {chapter}{\numberline {4}Results}{33}
+\contentsline {section}{\numberline {4.1}Robot to Human Emotion Contagion}{33}
+\contentsline {subsection}{\numberline {4.1.1}Robot Emotion Recognition}{33}
+\contentsline {subsection}{\numberline {4.1.2}Human Mood Measures}{33}
+\contentsline {section}{\numberline {4.2}Impact of Affective Communication on HRI}{34}
+\contentsline {subsection}{\numberline {4.2.1}Voluntary Exercise Rounds \& Closed Survey Questions}{34}
+\contentsline {subsection}{\numberline {4.2.2}Open Question and Additional Qualitative Data}{35}
+\contentsline {chapter}{\numberline {5}Discussion}{37}
+\contentsline {section}{\numberline {5.1}Emotion Recognition in Robot Gesture and Voice}{37}
+\contentsline {subsection}{\numberline {5.1.1}Gestures and Perceived Emotion Extremity}{37}
+\contentsline {subsection}{\numberline {5.1.2}Recognition in Pretesting vs Exercise Session}{37}
+\contentsline {section}{\numberline {5.2}Robot to Human Emotion Contagion}{40}
+\contentsline {section}{\numberline {5.3}Impact of Affective Communication on HRI}{41}
+\contentsline {section}{\numberline {5.4}Use of NAO as an Exercise Instructor / Other Reflections(?)}{41}
+\contentsline {chapter}{\numberline {6}Conclusions}{43}
+\contentsline {section}{\numberline {6.1}Limitations of this Work}{44}
+\contentsline {section}{\numberline {6.2}Recommendations for Further Work}{44}
