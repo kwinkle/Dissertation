@@ -67,6 +67,18 @@
   Timestamp                = {2016.09.02}
 }
 
+@Article{bateson2006cues,
+  author =    {Bateson, Melissa and Nettle, Daniel and Roberts, Gilbert},
+  title =     {Cues of being watched enhance cooperation in a real-world setting},
+  journal =   {Biology letters},
+  year =      {2006},
+  volume =    {2},
+  number =    {3},
+  pages =     {412--414},
+  publisher = {The Royal Society},
+  timestamp = {2016-09-13}
+}
+
 @Article{bayliss2007affective,
   Title                    = {Affective evaluations of objects are influenced by observed gaze direction and emotional expression},
   Author                   = {Bayliss, Andrew P and Frischen, Alexandra and Fenske, Mark J and Tipper, Steven P},
@@ -696,6 +708,14 @@
   Timestamp                = {2015.11.10}
 }
 
+@Book{mcneill1992hand,
+  title =     {Hand and mind: What gestures reveal about thought},
+  publisher = {University of Chicago press},
+  year =      {1992},
+  author =    {McNeill, David},
+  timestamp = {2016-09-12}
+}
+
 @Article{miner2010state,
   Title                    = {State mood, task performance, and behavior at work: A within-persons approach},
   Author                   = {Miner, Andrew G and Glomb, Theresa M},
@@ -766,6 +786,13 @@
   Timestamp                = {2015.11.12}
 }
 
+@Article{nani2010mobiserv,
+  author =    {Nani, Maria and Caleb-Solly, Praminda and Dogramadzi, Sanja and Fear, Tina and van den Heuvel, Herjan},
+  title =     {MOBISERV: an integrated intelligent home environment for the provision of health, nutrition and mobility services to the elderly},
+  year =      {2010},
+  timestamp = {2016-09-13}
+}
+
 @Article{neumann2000mood,
   Title                    = {Mood contagion: the automatic transfer of mood between persons.},
   Author                   = {Neumann, Roland and Strack, Fritz},
@@ -831,6 +858,16 @@
   Publisher                = {Wiley Online Library},
   Review                   = {Review of overall interpersonal emotion transfer specifically considering social appraisal (emotional response of another affects our judgment of something) versus emotion contagion (emotional expression causes us to actually feel the percieved emotion). Gives lots of examples of studies which demonstrate these effects, some of which highlight potentially worthwhile uses in robotics for example impacting someone's judgement of an item, reaction to a dangerous environment (fire) etc.},
   Timestamp                = {2016.03.01}
+}
+
+@Misc{pepperNews,
+  author =       {Ryan O'Hare},
+  title =        {Pepper the robot begins work in Belgian hospitals: Friendly droid is being used to greet patients at reception},
+  howpublished = {http://www.dailymail.co.uk/sciencetech/article-3641468/Pepper-robot-finds-job-healthcare-friendly-droid-trialled-two-hospitals-Belgium.html},
+  month =        {June},
+  year =         {2016},
+  note =         {[Online: accessed 13/09/2016]},
+  timestamp =    {2016-09-13}
 }
 
 @InProceedings{pfeifer1993emotions,
@@ -1330,5 +1367,15 @@
   Owner                    = {Katie},
   Review                   = {Looked at emotional expression in whole body humanoid; no references given for choice of chosen poses Demonstrated that presence of body and body pose siginifacntly increases emotion percievability (referenced by Lim paper)},
   Timestamp                = {2016.02.11}
+}
+
+@Misc{,
+  author =       {Adario Strange},
+  title =        {Robots, not humans, will serve you at SoftBank's new store in Japan},
+  howpublished = {http://mashable.com/2016/01/27/softbank-pepper-robot-store/#cV5RCy.CYOqX},
+  month =        {January},
+  year =         {2016},
+  note =         {[Online: accessed 13/09/2016]},
+  timestamp =    {2016-09-13}
 }
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.10)  12 SEP 2016 17:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.10)  13 SEP 2016 17:01
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -312,6 +312,10 @@ t line 25.
 [4
 
 ]
+
+Package natbib Warning: Citation `nani2010mobiserv' on page 5 undefined on inpu
+t line 32.
+
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 34.
 
 ("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsphv.f
@@ -320,10 +324,16 @@ File: omsphv.fd
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
- [5]
+ [5] <socialRobots.png, id=23, 443.256pt x 126.7134pt>
+File: socialRobots.png Graphic file (type png)
+
+<use socialRobots.png>
+Package pdftex.def Info: socialRobots.png used on input line 47.
+(pdftex.def)             Requested size: 422.52252pt x 120.78693pt.
+ [6 <./socialRobots.png>]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 53.
- [6] [7] [8] [9]
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 58.
+ [7] [8] [9]
 Chapter 2.
 [10
 
@@ -331,119 +341,119 @@ Chapter 2.
 Chapter 3.
 [17
 
-] [18] [19] [20] <./BothUpComparison.png, id=75, 489.5088pt x 186.4566pt>
+] [18] [19] [20] <./BothUpComparison.png, id=78, 489.5088pt x 186.4566pt>
 File: ./BothUpComparison.png Graphic file (type png)
 
 <use ./BothUpComparison.png>
-Package pdftex.def Info: ./BothUpComparison.png used on input line 240.
+Package pdftex.def Info: ./BothUpComparison.png used on input line 247.
 (pdftex.def)             Requested size: 422.52252pt x 160.94133pt.
- [21 <./BothUpComparison.png>] [22] [23]
-<./SimpleInteractionFlow.png, id=87, 470.7186pt x 367.1316pt>
+ [21] [22 <./BothUpComparison.png>] [23]
+<./SimpleInteractionFlow.png, id=89, 470.7186pt x 367.1316pt>
 File: ./SimpleInteractionFlow.png Graphic file (type png)
 
 <use ./SimpleInteractionFlow.png>
-Package pdftex.def Info: ./SimpleInteractionFlow.png used on input line 291.
+Package pdftex.def Info: ./SimpleInteractionFlow.png used on input line 304.
 (pdftex.def)             Requested size: 295.76447pt x 230.6891pt.
- [24 <./SimpleInteractionFlow.png>]
-<./ChoregrapheFlow2.png, id=93, 1494.58376pt x 699.61375pt>
-File: ./ChoregrapheFlow2.png Graphic file (type png)
-
-<use ./ChoregrapheFlow2.png>
-Package pdftex.def Info: ./ChoregrapheFlow2.png used on input line 302.
-(pdftex.def)             Requested size: 422.52252pt x 197.78003pt.
- [25 <./ChoregrapheFlow2.png>]
+ [24] [25 <./SimpleInteractionFlow.png>]
 <./ExerciseRound.png, id=98, 776.6616pt x 216.3282pt>
 File: ./ExerciseRound.png Graphic file (type png)
 
 <use ./ExerciseRound.png>
-Package pdftex.def Info: ./ExerciseRound.png used on input line 311.
+Package pdftex.def Info: ./ExerciseRound.png used on input line 317.
 (pdftex.def)             Requested size: 422.52252pt x 117.68692pt.
- [26 <./ExerciseRound.png>]
-Underfull \hbox (badness 1097) in paragraph at lines 341--341
+ [26 <./ExerciseRound.png>] [27]
+Underfull \hbox (badness 1097) in paragraph at lines 354--354
 []\OT1/phv/m/n/10.95 Number of ex-er-cise rounds vol-un-tar-ily
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--342
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
 
  []
 
 
-Overfull \hbox (30.88481pt too wide) in paragraph at lines 338--344
-[][] 
+Overfull \hbox (13.88481pt too wide) in paragraph at lines 351--357
+ [] 
  []
 
-[27]
-Overfull \hbox (3.95856pt too wide) in paragraph at lines 347--348
+
+Package natbib Warning: Citation `bateson2006cues' on page 28 undefined on inpu
+t line 361.
+
+[28]
+Overfull \hbox (3.95856pt too wide) in paragraph at lines 363--364
 []\OT1/phv/m/n/10.95 Quantitatively mea-sur-ing par-tic-i-pant mo-ti-va-tion wa
-s one of the key aims of this project;
+s one of the key aims of this project.
  []
 
-[28] [29] [30] <IMG_5290.jpg, id=117, 3276.24pt x 2457.18pt>
+[29] [30] [31] <IMG_5290.jpg, id=119, 3276.24pt x 2457.18pt>
 File: IMG_5290.jpg Graphic file (type jpg)
 
 <use IMG_5290.jpg>
-Package pdftex.def Info: IMG_5290.jpg used on input line 394.
+Package pdftex.def Info: IMG_5290.jpg used on input line 417.
 (pdftex.def)             Requested size: 422.52252pt x 316.85756pt.
- [31] [32 <./IMG_5290.jpg>]
+ [32] [33 <./IMG_5290.jpg>]
 Chapter 4.
-<RobotMood.png, id=124, 894.7026pt x 514.0806pt>
+<RobotMood.png, id=127, 894.7026pt x 514.0806pt>
 File: RobotMood.png Graphic file (type png)
  <use RobotMood.png>
-Package pdftex.def Info: RobotMood.png used on input line 408.
+Package pdftex.def Info: RobotMood.png used on input line 430.
 (pdftex.def)             Requested size: 422.52252pt x 242.77101pt.
- [33
+ [34
 
 ]
-<SelfAssessedMood.png, id=128, 989.6172pt x 570.24722pt>
+<SelfAssessedMood.png, id=131, 989.6172pt x 570.24722pt>
 File: SelfAssessedMood.png Graphic file (type png)
 
 <use SelfAssessedMood.png>
-Package pdftex.def Info: SelfAssessedMood.png used on input line 426.
+Package pdftex.def Info: SelfAssessedMood.png used on input line 453.
 (pdftex.def)             Requested size: 422.52252pt x 243.46997pt.
- [34 <./RobotMood.png>] [35 <./SelfAssessedMood.png>] [36]
+ [35 <./RobotMood.png>] [36 <./SelfAssessedMood.png>] [37]
 Chapter 5.
 
-Package natbib Warning: Citation `kendon2004gesture' on page 37 undefined on in
-put line 457.
+Package natbib Warning: Citation `kendon2004gesture' on page 38 undefined on in
+put line 489.
 
 
-Package natbib Warning: Citation `mcneill1992hand' on page 37 undefined on inpu
-t line 457.
+Package natbib Warning: Citation `mcneill1992hand' on page 38 undefined on inpu
+t line 489.
 
 
-Package natbib Warning: Citation `bremner2009conversational' on page 37 undefin
-ed on input line 457.
+Package natbib Warning: Citation `bremner2009conversational' on page 38 undefin
+ed on input line 489.
 
 
-Package natbib Warning: Citation `bremner2015efficiency' on page 37 undefined o
-n input line 457.
+Package natbib Warning: Citation `bremner2015efficiency' on page 38 undefined o
+n input line 489.
 
 
-Package natbib Warning: Citation `bremner2015' on page 37 undefined on input li
-ne 457.
+Package natbib Warning: Citation `bremner2015' on page 38 undefined on input li
+ne 489.
 
-[37
+[38
 
-] [38]
+] [39]
 
-Package natbib Warning: Citation `bremner2015' on page 39 undefined on input li
-ne 471.
+Package natbib Warning: Citation `bremner2015' on page 40 undefined on input li
+ne 503.
 
-[39] [40]
-Overfull \hbox (8.03198pt too wide) in paragraph at lines 487--487
-[]\OT1/phv/b/n/14.4 Use of NAO as an Ex-er-cise In-struc-tor / Other Re-flec-ti
-ons(?) 
- []
-
-[41] [42]
+[40] [41] [42] [43]
 Chapter 6.
-[43
+[44
 
-] [44] (Dissertation.bbl [45]
+]
+
+Package natbib Warning: Citation `pepperNews' on page 45 undefined on input lin
+e 524.
+
+
+Package natbib Warning: Citation `pepperNews2' on page 45 undefined on input li
+ne 524.
+
+[45] (Dissertation.bbl [46]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 6.
- [46
+ [47
 
 ]
 ! Missing $ inserted.
@@ -497,19 +507,19 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[47] [48] [49] [50])
+[48] [49] [50] [51])
 
 Package natbib Warning: There were undefined citations.
 
-[51] (Dissertation.aux) ) 
+[52] (Dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 3259 strings out of 493634
- 45631 string characters out of 3134015
- 109391 words of memory out of 3000000
- 6580 multiletter control sequences out of 15000+200000
+ 3263 strings out of 493634
+ 45659 string characters out of 3134015
+ 111390 words of memory out of 3000000
+ 6584 multiletter control sequences out of 15000+200000
  35499 words of font info for 77 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,8n,24p,1706b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,9n,27p,1771b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.9/f
 onts/enc/dvips/fontname/8r.enc}<C:/Users/k-winkle/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/k-winkle/AppData/Local
@@ -522,9 +532,9 @@ blic/amsfonts/cm/cmsy10.pfb><C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.
 ograms/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/k-winkle/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/k-win
 kle/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Dissertation.pdf (52 pages, 2394495 bytes).
+Output written on Dissertation.pdf (53 pages, 2662880 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
+ 224 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
