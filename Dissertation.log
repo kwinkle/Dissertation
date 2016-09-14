@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.10)  13 SEP 2016 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.3.10)  14 SEP 2016 19:22
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -183,6 +183,67 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 
 ("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
 ry.cfg"))
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpag
+es.sty"
+Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count104
+\calc@Bcount=\count105
+\calc@Adimen=\dimen122
+\calc@Bdimen=\dimen123
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count106
+\calc@Cskip=\skip48
+)
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic
+.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbe
+gshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+)
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.s
+ty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.
+cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+\AM@pagewidth=\dimen124
+\AM@pageheight=\dimen125
+
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdft
+ex.def"
+File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box28
+\AM@global@opts=\toks23
+\AM@toc@title=\toks24
+\c@AM@survey=\count107
+\AM@templatesizebox=\box29
+)
 ("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\helvet.s
 ty"
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
@@ -190,26 +251,43 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 ("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.s
 ty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip46
-\bibsep=\skip47
+\bibhang=\skip49
+\bibsep=\skip50
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count104
+\c@NAT@ctr=\count108
+)
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\appendix\Append
+ix.sty"
+
+LaTeX Warning: You have requested package `Appendix',
+               but the package provides `appendix'.
+
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count109
+\c@@ppsavesec=\count110
+\c@@ppsaveapp=\count111
+)
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyphenat\hyphen
+at.sty"
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language70
+LaTeX Info: Redefining \_ on input line 43.
 ) (Dissertation.aux)
 \openout1 = `Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 28.
 
 ("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ot1phv.f
 d"
@@ -218,17 +296,17 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 ("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
 .mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen122
-\scratchbox=\box28
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen123
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count112
+\scratchdimen=\dimen126
+\scratchbox=\box30
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen127
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks26
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -264,13 +342,25 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+\AtBeginShipoutBox=\box31
+
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflsc
+ape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape
+.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
 
 ("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.f
 d"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 
 ("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.f
 d"
@@ -279,181 +369,674 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {C:/Users/k-winkle/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 31.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--45
+
+ []
 
 [1]
+Overfull \hbox (1.07257pt too wide) in paragraph at lines 49--50
+\OT1/phv/m/n/10.95 Interpersonal emo-tion trans-fer (IET) is a psy-cho-log-i-ca
+l phe-nomenon ob-served in hu-mans
+ []
+
+
+Overfull \hbox (11.60695pt too wide) in paragraph at lines 49--50
+\OT1/phv/m/n/10.95 con-cern-ing the shar-ing of emo-tions be-tween per-sons and
+ its con-se-quences. One ob-served
+ []
+
+
+Overfull \hbox (4.15593pt too wide) in paragraph at lines 53--54
+[]\OT1/phv/m/n/10.95 Participants in the ex-er-cise ses-sion ex-per-i-ment fail
+ed to recog-nise the robot's in-tended
+ []
+
+
+Overfull \hbox (9.59206pt too wide) in paragraph at lines 53--54
+\OT1/phv/m/n/10.95 emo-tional state. This con-trasts with good emo-tion recog-n
+i-tion re-sults achieved in val-i-da-tion
+ []
+
+
+Overfull \hbox (12.04703pt too wide) in paragraph at lines 53--54
+\OT1/phv/m/n/10.95 of the sys-tem. Likely due to this lack of recog-ni-tion, no
+ sig-nif-i-cant dif-fer-ences in par-tic-i-pants'
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
+
+Overfull \hbox (9.63576pt too wide) in paragraph at lines 57--61
+\OT1/phv/m/n/10.95 This work was sup-ported by the EP-SRC Cen-tre for Doc-toral
+ Train-ing in Fu-ture Au-tonomous
+ []
+
+[3]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 22.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 62.
  (Dissertation.toc
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 3.
- [2
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 1.
+ [4
 
 ])
 \tf@toc=\write3
 \openout3 = `Dissertation.toc'.
 
- [3]
+ [5]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 24.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 64.
 
-Package natbib Warning: Citation `breazeal2004designing' on page 4 undefined on
- input line 25.
-
-
-Package natbib Warning: Citation `bremner2011effects' on page 4 undefined on in
-put line 25.
+Package natbib Warning: Citation `breazeal2004designing' on page 6 undefined on
+ input line 65.
 
 
-Package natbib Warning: Citation `kim2010designing' on page 4 undefined on inpu
-t line 25.
+Package natbib Warning: Citation `bremner2011effects' on page 6 undefined on in
+put line 65.
 
-[4
+
+Package natbib Warning: Citation `kim2010designing' on page 6 undefined on inpu
+t line 65.
+
+
+Overfull \hbox (39.02605pt too wide) in paragraph at lines 65--66
+\OT1/phv/m/n/10.95 pro-vide nat-u-ral and in-tu-itive in-ter-ac-tions which mov
+e ever more to-wards em-u-lat-ing human-human
+ []
+
+
+Overfull \hbox (9.98582pt too wide) in paragraph at lines 65--66
+\OT1/phv/m/n/10.95 in-ter-ac-tion (HHI) [\OT1/phv/b/n/10.95 ? \OT1/phv/m/n/10.9
+5 ]. Typ-i-cally this has in-volved util-is-ing hu-man com-mu-ni-ca-tion be-hav
+iours
+ []
+
+
+Overfull \hbox (5.67491pt too wide) in paragraph at lines 65--66
+\OT1/phv/m/n/10.95 sit-u-a-tions, for ex-am-ple as so-cial com-pan-ions in long
+ term care fa-cil-i-ties [[]] or as play-mates
+ []
+
+
+Overfull \hbox (20.10483pt too wide) in paragraph at lines 68--69
+\OT1/phv/m/n/10.95 Human be-ings nat-u-rally utilise af-fec-tive com-mu-ni-ca-t
+ion be-haviours such as fa-cial ex-pres-sion,
+ []
+
+[6
 
 ]
 
-Package natbib Warning: Citation `nani2010mobiserv' on page 5 undefined on inpu
-t line 32.
+Package natbib Warning: Citation `nani2010mobiserv' on page 7 undefined on inpu
+t line 72.
 
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 34.
+
+Overfull \hbox (1.86209pt too wide) in paragraph at lines 72--73
+\OT1/phv/m/n/10.95 as-sis-tive robotics [[]]. So-cially as-sis-tive robots pro-
+vide users with non-physical as-sis-tance
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 74.
 
 ("C:\Users\k-winkle\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsphv.f
 d"
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
- [5] <socialRobots.png, id=23, 443.256pt x 126.7134pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
+
+Overfull \hbox (10.00844pt too wide) in paragraph at lines 81--82
+\OT1/phv/m/n/10.95 study. Re-search done so far sug-gest demon-strates that rec
+og-nis-able emo-tional ex-pres-sion
+ []
+
+[7]
+Overfull \hbox (6.56537pt too wide) in paragraph at lines 83--84
+[]\OT1/phv/m/n/10.95 Many robots ei-ther com-mer-cially avail-able or utilised 
+in re-search do not have adapt-able
+ []
+
+<socialRobots.png, id=30, 443.256pt x 126.7134pt>
 File: socialRobots.png Graphic file (type png)
-
-<use socialRobots.png>
-Package pdftex.def Info: socialRobots.png used on input line 47.
+ <use socialRobots.png>
+Package pdftex.def Info: socialRobots.png used on input line 87.
 (pdftex.def)             Requested size: 422.52252pt x 120.78693pt.
- [6 <./socialRobots.png>]
+
+Underfull \hbox (badness 1102) in paragraph at lines 88--88
+[]\OT1/phv/m/n/10.95 Figure 1.1: A se-lec-tion of com-mer-cially avail-able per
+-sonal robots lack-ing fa-cial
+ []
+
+[8 <./socialRobots.png>]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 58.
- [7] [8] [9]
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 98.
+
+Overfull \hbox (8.73772pt too wide) in paragraph at lines 107--108
+\OT1/phv/m/n/10.95 emo-tional state can be changed through in-ter-ac-tion with 
+a robot demon-strat-ing emo-tion-ally
+ []
+
+
+Overfull \hbox (6.89023pt too wide) in paragraph at lines 107--108
+\OT1/phv/m/n/10.95 as-pects for con-sid-er-a-tion are listed un-der Ob-jec-tive
+ 3, how-ever defin-ing spe-cific eval-u-a-tion
+ []
+
+[9]
+Overfull \hbox (3.51463pt too wide) in paragraph at lines 117--118
+[]\OT1/phv/m/n/10.95 Implement a method for gen-er-at-ing emo-tional robot ex-p
+res-sion on the NAO plat-form 
+ []
+
+
+Overfull \hbox (18.6375pt too wide) in paragraph at lines 126--127
+[]\OT1/phv/m/n/10.95 Implement ap-pro-pri-ate ex-per-i-men-tal mea-sures cov-er
+-ing the above con-sid-er-a-tions 
+ []
+
+
+Overfull \hbox (16.58449pt too wide) in paragraph at lines 133--134
+[]\OT1/phv/m/n/10.95 The re-search method-ol-ogy pre-sented in Chap-ter 3 de-sc
+ribes how emo-tional ex-pres-sions
+ []
+
+
+Overfull \hbox (5.3874pt too wide) in paragraph at lines 133--134
+\OT1/phv/m/n/10.95 main ex-per-i-ment used to test the im-pact of af-fec-tive r
+obot com-mu-ni-ca-tion on HRI. Emo-tion
+ []
+
+
+Overfull \hbox (30.51607pt too wide) in paragraph at lines 133--134
+\OT1/phv/m/n/10.95 ex-pres-sion on the NAO was done us-ing an im-ple-men-ta-tio
+n of Lim et al.'s SIRE pa-ram-e-ter-i-sa-tion
+ []
+
+
+Overfull \hbox (0.15141pt too wide) in paragraph at lines 133--134
+\OT1/phv/m/n/10.95 frame-work for ges-tur-ing [[]] and Cere-Proc's Cerevoice Te
+xt-to-Speech SDK[] with built-in
+ []
+
+[10] [11]
 Chapter 2.
-[10
 
-] [11] [12] [13] [14] [15] [16]
+Overfull \hbox (15.9871pt too wide) in paragraph at lines 145--146
+\OT1/phv/m/n/10.95 de-vel-op-ment over time and the link to pop-u-la-tion fit-n
+ess) sug-gests that emo-tional ex-pres-sion
+ []
+
+
+Overfull \hbox (11.2785pt too wide) in paragraph at lines 145--146
+\OT1/phv/m/n/10.95 evolved from be-ing a phys-i-o-log-i-cal re-sponse (e.g. scr
+unch-ing the nose to pre-vent in-hala-tion
+ []
+
+[12
+
+]
+Overfull \hbox (1.10599pt too wide) in paragraph at lines 147--148
+\OT1/phv/m/n/10.95 de-pend-ing on whether it is pre-sented along-side a smil-in
+g or dis-gusted face [[]] sug-gest-ing
+ []
+
+
+Overfull \hbox (9.60283pt too wide) in paragraph at lines 147--148
+\OT1/phv/m/n/10.95 that emo-tional ex-pres-sion is a trig-ger for this form of 
+IET. An-other ex-per-i-ment demon-strated
+ []
+
+
+Overfull \hbox (7.27818pt too wide) in paragraph at lines 149--150
+[]\OT1/phv/m/n/10.95 Another ev-i-denced form of IET is emo-tion con-ta-gion, w
+hereby an in-di-vid-ual's emo-tional
+ []
+
+
+Overfull \hbox (16.03252pt too wide) in paragraph at lines 149--150
+\OT1/phv/m/n/10.95 state changes based on that of their in-ter-ac-tion part-ner
+; how-ever, this is less well un-der-stood
+ []
+
+
+Overfull \hbox (4.4021pt too wide) in paragraph at lines 151--152
+\OT1/phv/m/n/10.95 in-crease or de-crease trust re-spec-tively [[]] and emo-tio
+n con-ta-gion in a group can im-prove
+ []
+
+[13]
+Overfull \hbox (37.24078pt too wide) in paragraph at lines 156--157
+\OT1/phv/m/n/10.95 lit-er-a-ture de-scribes fa-cial ex-pres-sion as a com-plex 
+and im-por-tant part of af-fec-tive com-mu-ni-ca-tion
+ []
+
+[14]
+Overfull \hbox (5.15245pt too wide) in paragraph at lines 160--161
+[]\OT1/phv/m/n/10.95 The re-viewed lit-er-a-ture there-fore sug-gests that emo-
+tion can the-o-ret-i-cally be ex-pressed
+ []
+
+
+Overfull \hbox (36.2658pt too wide) in paragraph at lines 160--161
+\OT1/phv/m/n/10.95 com-mu-ni-ca-tion or task ex-e-cu-tion with-out chang-ing th
+e robot's func-tional be-haviour. Fur-ther-more
+ []
+
+
+Overfull \hbox (18.17674pt too wide) in paragraph at lines 160--161
+\OT1/phv/m/n/10.95 the study of emo-tion in move-ment and voice lends cred-i-bi
+l-ity to the idea of a pa-ram-e-ter-i-sa-tion
+ []
+
+
+Overfull \hbox (3.97475pt too wide) in paragraph at lines 163--164
+\OT1/phv/m/n/10.95 gen-er-a-tion of pre-determined emo-tions which can be dis-p
+layed through generic func-tional
+ []
+
+
+Overfull \hbox (19.1085pt too wide) in paragraph at lines 163--164
+\OT1/phv/m/n/10.95 be-haviours by ad-just-ing vo-cal and move-ment pa-ram-e-ter
+s as dis-cussed pre-vi-ously. Ex-am-ples
+ []
+
+
+Overfull \hbox (36.34262pt too wide) in paragraph at lines 165--166
+\OT1/phv/m/n/10.95 anal-y-sis of ob-served move-ment emo-tion clas-si-fi-ca-tio
+n from a pi-lot ex-per-i-ment [[]]. Im-ple-mented
+ []
+
+
+Overfull \hbox (0.55875pt too wide) in paragraph at lines 165--166
+\OT1/phv/m/n/10.95 map-ping from the same fea-tures mea-sured from an ac-tor's 
+speech sam-ple. Im-ple-mented
+ []
+
+[15]
+Overfull \hbox (19.4253pt too wide) in paragraph at lines 173--174
+\OT1/phv/m/n/10.95 Based on ques-tion-naire re-sponses they de-ter-mined that c
+hil-dren found emo-tional ex-pres-sion
+ []
+
+[16]
+Overfull \hbox (18.09164pt too wide) in paragraph at lines 179--180
+\OT1/phv/m/n/10.95 robot's sug-ges-tions, al-though in-ter-est-ingly didn't hav
+e an ef-fect on per-ceived per-sua-sive-ness
+ []
+
+[17]
+Overfull \hbox (6.06645pt too wide) in paragraph at lines 185--186
+\OT1/phv/m/n/10.95 asked to make a con-tex-tual strate-gic de-ci-sion in-volv-i
+ng that char-ac-ter. When the char-ac-ter
+ []
+
+
+Overfull \hbox (39.8926pt too wide) in paragraph at lines 187--188
+\OT1/phv/m/n/10.95 im-pact of af-fec-tive com-mu-ni-ca-tion. How-ever, ad-di-ti
+onal in-spi-ra-tion for quan-ti-ta-tive mea-sure-ments
+ []
+
+
+Overfull \hbox (34.8756pt too wide) in paragraph at lines 187--188
+\OT1/phv/m/n/10.95 Con-sid-er-ing this aim along-side the ex-am-ple ex-per-i-me
+nts dis-cussed here high-lights hu-man/robot
+ []
+
+[18] [19]
 Chapter 3.
-[17
+[20
 
-] [18] [19] [20] <./BothUpComparison.png, id=78, 489.5088pt x 186.4566pt>
+]
+Overfull \hbox (6.90996pt too wide) in paragraph at lines 201--202
+\OT1/phv/m/n/10.95 de-vel-oped a pa-ram-e-terised sys-tem based on the six fea-
+tures of La-ban Move-ment Anal-y-sis
+ []
+
+
+Overfull \hbox (6.92087pt too wide) in paragraph at lines 205--206
+\OT1/phv/m/n/10.95 was there-fore iden-ti-fied as most suit-able for this proje
+ct. The use of Cerevoice is dis-cussed
+ []
+
+[21]
+Overfull \hbox (13.21747pt too wide) in paragraph at lines 215--216
+[]$\OML/cmm/m/it/10.95 tMin$ \OT1/phv/m/n/10.95 : min-i-mum time re-quired to e
+x-e-cute ges-ture ex-ten-sion/return (for safe op-er-a-tion) 
+ []
+
+[22]
+Overfull \hbox (5.48857pt too wide) in paragraph at lines 233--234
+\OT1/phv/m/n/10.95 side-to-side head move-ments, this was not im-ple-mented her
+e how-ever due to the im-i-ta-tion
+ []
+
+[23] <./BothUpComparison.png, id=87, 489.5088pt x 186.4566pt>
 File: ./BothUpComparison.png Graphic file (type png)
 
 <use ./BothUpComparison.png>
-Package pdftex.def Info: ./BothUpComparison.png used on input line 247.
+Package pdftex.def Info: ./BothUpComparison.png used on input line 283.
 (pdftex.def)             Requested size: 422.52252pt x 160.94133pt.
- [21] [22 <./BothUpComparison.png>] [23]
-<./SimpleInteractionFlow.png, id=89, 470.7186pt x 367.1316pt>
+
+Overfull \hbox (23.41068pt too wide) in paragraph at lines 290--291
+\OT1/phv/m/n/10.95 Syn-the-sis Markup Lan-guage (SSML) tags for voice mod-i-fi-
+ca-tion which would al-low ap-pli-ca-tion
+ []
+
+
+Overfull \hbox (3.30612pt too wide) in paragraph at lines 290--291
+\OT1/phv/m/n/10.95 of the SIRE frame-work but also of-fers pre-defined emo-tion
+al tags for gen-er-at-ing emo-tional
+ []
+
+[24] [25 <./BothUpComparison.png>]
+Overfull \hbox (6.43341pt too wide) in paragraph at lines 312--313
+[]\OT1/phv/m/n/10.95 All three ex-per-i-ments were ad-min-is-tered through an o
+n-line sur-vey in which par-tic-i-pants
+ []
+
+
+Overfull \hbox (3.54298pt too wide) in paragraph at lines 327--328
+[]\OT1/phv/m/n/10.95 Chi-square con-tin-gency ta-ble anal-y-ses were per-formed
+ to check whether the in-tended
+ []
+
+
+Overfull \hbox (12.93176pt too wide) in paragraph at lines 327--328
+\OT1/phv/m/n/10.95 emo-tion was iden-ti-fied sig-nif-i-cantly more fre-quently 
+than the other op-tions in each con-di-tion.
+ []
+
+[26]
+Overfull \hbox (7.50027pt too wide) in paragraph at lines 336--337
+\OT1/phv/m/n/10.95 par-tic-i-pant's mo-ti-va-tion to do repet-i-tive and monoto
+nous stroke ex-er-cises [[]]. Par-tic-i-pants
+ []
+
+[27] <./SimpleInteractionFlow.png, id=102, 470.7186pt x 367.1316pt>
 File: ./SimpleInteractionFlow.png Graphic file (type png)
 
 <use ./SimpleInteractionFlow.png>
-Package pdftex.def Info: ./SimpleInteractionFlow.png used on input line 304.
+Package pdftex.def Info: ./SimpleInteractionFlow.png used on input line 340.
 (pdftex.def)             Requested size: 295.76447pt x 230.6891pt.
- [24] [25 <./SimpleInteractionFlow.png>]
-<./ExerciseRound.png, id=98, 776.6616pt x 216.3282pt>
+
+Overfull \hbox (4.35144pt too wide) in paragraph at lines 347--348
+\OT1/phv/m/n/10.95 pressed the foot, in-di-cat-ing they wished to stop, then th
+e robot thanked them for ex-er-cis-ing
+ []
+
+[28 <./SimpleInteractionFlow.png>]
+Overfull \hbox (6.85463pt too wide) in paragraph at lines 349--350
+\OT1/phv/m/n/10.95 op-tions us-ing a ran-dom num-ber gen-er-a-tor. The ges-ture
+ and en-cour-age-ment com-bi-na-tions
+ []
+
+<./ExerciseRound.png, id=107, 776.6616pt x 216.3282pt>
 File: ./ExerciseRound.png Graphic file (type png)
 
 <use ./ExerciseRound.png>
-Package pdftex.def Info: ./ExerciseRound.png used on input line 317.
+Package pdftex.def Info: ./ExerciseRound.png used on input line 353.
 (pdftex.def)             Requested size: 422.52252pt x 117.68692pt.
- [26 <./ExerciseRound.png>] [27]
-Underfull \hbox (badness 1097) in paragraph at lines 354--354
+
+Overfull \hbox (4.56604pt too wide) in paragraph at lines 374--375
+[]\OT1/phv/m/n/10.95 Participants will recog-nise the in-tended emo-tional stat
+e of the robot when in-ter-act-ing
+ []
+
+[29 <./ExerciseRound.png>] [30]
+Overfull \hbox (9.2038pt too wide) in paragraph at lines 379--380
+[]\OT1/phv/m/n/10.95 H1 de-scribes the ex-pec-ta-tion that some ev-i-dence for 
+robot to hu-man emo-tion con-ta-gion
+ []
+
+
+Overfull \hbox (19.17355pt too wide) in paragraph at lines 381--382
+\OT1/phv/m/n/10.95 a robot's be-haviour can change par-tic-i-pant be-haviour an
+d per-cep-tion; for ex-am-ple Nak-a-gawa
+ []
+
+
+Overfull \hbox (29.98067pt too wide) in paragraph at lines 381--382
+\OT1/phv/m/n/10.95 et al.'s study of ac-tive touch and mo-ti-va-tion [[]] or Ch
+i-dambaram et al.'s study of com-mu-ni-ca-tion
+ []
+
+
+Overfull \hbox (37.75493pt too wide) in paragraph at lines 381--382
+\OT1/phv/m/n/10.95 fea-tures of in-ter-est; robot to hu-man emo-tion con-ta-gio
+n and the im-pact of af-fec-tive com-mu-ni-ca-tion
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 388--388
 []\OT1/phv/m/n/10.95 Number of ex-er-cise rounds vol-un-tar-ily
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  []
 
 
-Overfull \hbox (13.88481pt too wide) in paragraph at lines 351--357
+Overfull \hbox (13.88481pt too wide) in paragraph at lines 385--391
  [] 
  []
 
 
-Package natbib Warning: Citation `bateson2006cues' on page 28 undefined on inpu
-t line 361.
+Package natbib Warning: Citation `bateson2006cues' on page 31 undefined on inpu
+t line 395.
 
-[28]
-Overfull \hbox (3.95856pt too wide) in paragraph at lines 363--364
+
+Overfull \hbox (14.89502pt too wide) in paragraph at lines 395--396
+\OT1/phv/m/n/10.95 As dis-cussed in Sec-tion 2, some emo-tion con-ta-gion ef-fe
+cts in hu-mans may be sub-con-scious
+ []
+
+
+Overfull \hbox (2.48604pt too wide) in paragraph at lines 395--396
+\OT1/phv/m/n/10.95 and so it was deemed im-por-tant to also in-clude an im-plic
+it mood mea-sure in the sur-vey-ing
+ []
+
+[31]
+Overfull \hbox (3.95856pt too wide) in paragraph at lines 397--398
 []\OT1/phv/m/n/10.95 Quantitatively mea-sur-ing par-tic-i-pant mo-ti-va-tion wa
 s one of the key aims of this project.
  []
 
-[29] [30] [31] <IMG_5290.jpg, id=119, 3276.24pt x 2457.18pt>
-File: IMG_5290.jpg Graphic file (type jpg)
+[32] [33]
+Overfull \hbox (12.94322pt too wide) in paragraph at lines 411--412
+\OT1/phv/m/n/10.95 round of ex-er-cise con-sisted of 4 ges-tures and that the f
+irst round of ex-er-cise was manda-tory,
+ []
 
-<use IMG_5290.jpg>
-Package pdftex.def Info: IMG_5290.jpg used on input line 417.
-(pdftex.def)             Requested size: 422.52252pt x 316.85756pt.
- [32] [33 <./IMG_5290.jpg>]
+
+Overfull \hbox (13.67558pt too wide) in paragraph at lines 415--416
+\OT1/phv/m/n/10.95 po-ten-tial par-tic-i-pants un-til af-ter they had also com-
+pleted the ex-per-i-ment. Fi-nally par-tic-i-pants
+ []
+
+<IMG_5290.jpg, id=125, 356.532pt x 423.984pt>
+File: IMG_5290.jpg Graphic file (type jpg)
+ <use IMG_5290.jpg>
+Package pdftex.def Info: IMG_5290.jpg used on input line 419.
+(pdftex.def)             Requested size: 295.76447pt x 351.74487pt.
+ [34] [35 <./IMG_5290.jpg>]
 Chapter 4.
-<RobotMood.png, id=127, 894.7026pt x 514.0806pt>
+
+Overfull \hbox (2.57309pt too wide) in paragraph at lines 428--429
+\OT1/phv/m/n/10.95 Figure 4.1[] shows par-tic-i-pants' per-cep-tion of the robo
+t's emo-tional state across con-di-tions;
+ []
+
+<RobotMood.png, id=133, 894.7026pt x 514.0806pt>
 File: RobotMood.png Graphic file (type png)
  <use RobotMood.png>
-Package pdftex.def Info: RobotMood.png used on input line 430.
+Package pdftex.def Info: RobotMood.png used on input line 432.
 (pdftex.def)             Requested size: 422.52252pt x 242.77101pt.
- [34
 
-]
-<SelfAssessedMood.png, id=131, 989.6172pt x 570.24722pt>
+Overfull \hbox (4.54636pt too wide) in paragraph at lines 438--439
+\OT1/phv/m/n/10.95 The mean num-ber of pos-i-tive, neg-a-tive and to-tal emo-ti
+ve word com-ple-tions per par-tic-i-pant
+ []
+
+
+Overfull \hbox (1.90553pt too wide) in paragraph at lines 438--439
+\OT1/phv/m/n/10.95 they were happy and no par-tic-i-pants in-di-cated they were
+ sad or very sad whilst in-ter-act-ing
+ []
+
+[36
+
+] <SelfAssessedMood.png, id=138, 989.6172pt x 570.24722pt>
 File: SelfAssessedMood.png Graphic file (type png)
 
 <use SelfAssessedMood.png>
-Package pdftex.def Info: SelfAssessedMood.png used on input line 453.
+Package pdftex.def Info: SelfAssessedMood.png used on input line 455.
 (pdftex.def)             Requested size: 422.52252pt x 243.46997pt.
- [35 <./RobotMood.png>] [36 <./SelfAssessedMood.png>] [37]
+ [37 <./RobotMood.png>] [38 <./SelfAssessedMood.png>] [39]
 Chapter 5.
 
-Package natbib Warning: Citation `kendon2004gesture' on page 38 undefined on in
-put line 489.
+Package natbib Warning: Citation `kendon2004gesture' on page 40 undefined on in
+put line 491.
 
 
-Package natbib Warning: Citation `mcneill1992hand' on page 38 undefined on inpu
-t line 489.
+Package natbib Warning: Citation `mcneill1992hand' on page 40 undefined on inpu
+t line 491.
 
 
-Package natbib Warning: Citation `bremner2009conversational' on page 38 undefin
-ed on input line 489.
+Package natbib Warning: Citation `bremner2009conversational' on page 40 undefin
+ed on input line 491.
 
 
-Package natbib Warning: Citation `bremner2015efficiency' on page 38 undefined o
-n input line 489.
+Package natbib Warning: Citation `bremner2015efficiency' on page 40 undefined o
+n input line 491.
 
-
-Package natbib Warning: Citation `bremner2015' on page 38 undefined on input li
-ne 489.
-
-[38
-
-] [39]
 
 Package natbib Warning: Citation `bremner2015' on page 40 undefined on input li
-ne 503.
+ne 491.
 
-[40] [41] [42] [43]
+
+Overfull \hbox (12.30742pt too wide) in paragraph at lines 495--496
+\OT1/phv/m/n/10.95 One of the most in-ter-est-ing re-sults found in this projec
+t is the con-trast in emo-tion recog-ni-tion
+ []
+
+
+Overfull \hbox (5.12439pt too wide) in paragraph at lines 495--496
+\OT1/phv/m/n/10.95 Par-tic-i-pants un-der-tak-ing the pretest re-li-ably recog-
+nised the in-tended emo-tion suc-cess-fully
+ []
+
+[40
+
+] [41]
+Overfull \hbox (2.97331pt too wide) in paragraph at lines 503--504
+[]\OT1/phv/m/n/10.95 This has in-ter-est-ing im-pli-ca-tions for the per-cep-ti
+on of robots based on prior knowl-edge
+ []
+
+[42] [43]
+Overfull \hbox (5.56296pt too wide) in paragraph at lines 513--514
+\OT1/phv/m/n/10.95 some dif-fer-ences would be seen in the num-ber of vol-un-ta
+ry rounds of ex-er-cise par-tic-i-pants
+ []
+
+
+Overfull \hbox (6.32933pt too wide) in paragraph at lines 515--516
+\OT1/phv/m/n/10.95 ex-er-cise ses-sion ex-per-i-ment would have been dif-fer-en
+t. This war-rants fur-ther in-ves-ti-ga-tion
+ []
+
+[44] [45]
 Chapter 6.
-[44
+
+Overfull \hbox (49.77243pt too wide) in paragraph at lines 520--521
+[]\OT1/phv/m/n/10.95 A spe-cific ob-jec-tive of this project was to im-ple-ment
+ a method for gen-er-at-ing func-tional/semantic
+ []
+
+
+Overfull \hbox (7.27112pt too wide) in paragraph at lines 522--523
+\OT1/phv/m/n/10.95 us-ing voice and ges-ture only can only oc-cur if users wit-
+ness the robot in dif-fer-ent emo-tional
+ []
+
+[46
 
 ]
 
-Package natbib Warning: Citation `pepperNews' on page 45 undefined on input lin
+Package natbib Warning: Citation `pepperNews' on page 47 undefined on input lin
 e 524.
 
 
-Package natbib Warning: Citation `pepperNews2' on page 45 undefined on input li
+Package natbib Warning: Citation `pepperNews2' on page 47 undefined on input li
 ne 524.
 
-[45] (Dissertation.bbl [46]
+
+Overfull \hbox (8.30571pt too wide) in paragraph at lines 524--525
+[]\OT1/phv/m/n/10.95 Of most im-por-tance to real world robotics ap-pli-ca-tion
+s is the lack of emo-tion recog-ni-tion
+ []
+
+
+Overfull \hbox (11.32224pt too wide) in paragraph at lines 524--525
+\OT1/phv/m/n/10.95 un-likely to be suf-fi-cient for achiev-ing emo-tion recog-n
+i-tion in sin-gle or in-fre-quent in-ter-ac-tions,
+ []
+
+
+Overfull \hbox (8.28824pt too wide) in paragraph at lines 524--525
+\OT1/phv/m/n/10.95 there-fore re-duc-ing the po-ten-tial for IET and its as-so-
+ci-ated ben-e-fits. Demon-strated ex-am-ple
+ []
+
+
+Overfull \hbox (9.05792pt too wide) in paragraph at lines 528--529
+\OT1/phv/m/n/10.95 out. More gen-er-ally, whilst the ex-er-cise ses-sion con-te
+xt pro-vided the real world ap-pli-ca-bil-ity
+ []
+
+[47] (Dissertation.bbl [48]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 6.
- [47
+
+Underfull \hbox (badness 1590) in paragraph at lines 20--23
+[]\OT1/phv/m/n/10.95 Jessica L Tracy, Daniel Ran-dles, and Conor M Steck-ler.  
+The non-ver-bal
+ []
+
+[49
 
 ]
 ! Missing $ inserted.
@@ -507,34 +1090,181 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[48] [49] [50] [51])
+[50]
+Underfull \hbox (badness 1173) in paragraph at lines 141--145
+\OT1/phv/m/n/10.95 ex-pres-sion af-fects ultimatum-game re-sponses.  \OT1/phv/m
+/sl/10.95 Judg-ment and De-ci-sion Mak-ing\OT1/phv/m/n/10.95 ,
+ []
+
+[51] [52] [53]
+Underfull \hbox (badness 1163) in paragraph at lines 324--328
+[]\OT1/phv/m/n/10.95 David B Buller and Judee K Bur-goon.  The ef-fects of vo-c
+al-ics and non-ver-bal
+ []
+
+) [54]
+Appendix A.
+[55
+
+] [56] [57]
+Appendix B.
+[58
+
+] <Survey.pdf, id=211, 614.295pt x 794.97pt>
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf>
+Package pdftex.def Info: Survey.pdf used on input line 597.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Survey.pdf Graphic file (type pdf)
+
+<use Survey.pdf>
+Package pdftex.def Info: Survey.pdf used on input line 597.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ <Survey.pdf, id=214, page=1, 614.295pt x 794.97pt>
+File: Survey.pdf Graphic file (type pdf)
+
+<use Survey.pdf, page 1>
+Package pdftex.def Info: Survey.pdf, page1 used on input line 597.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 1>
+Package pdftex.def Info: Survey.pdf, page1 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 1>
+Package pdftex.def Info: Survey.pdf, page1 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+
+<use Survey.pdf, page 1>
+Package pdftex.def Info: Survey.pdf, page1 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 1>
+Package pdftex.def Info: Survey.pdf, page1 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [59 <./Survey.pdf>]
+<Survey.pdf, id=246, page=2, 614.295pt x 794.97pt>
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 2>
+Package pdftex.def Info: Survey.pdf, page2 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+
+<use Survey.pdf, page 2>
+Package pdftex.def Info: Survey.pdf, page2 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 2>
+Package pdftex.def Info: Survey.pdf, page2 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [60 <./Survey.pdf>]
+<Survey.pdf, id=251, page=3, 614.295pt x 794.97pt>
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 3>
+Package pdftex.def Info: Survey.pdf, page3 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+
+<use Survey.pdf, page 3>
+Package pdftex.def Info: Survey.pdf, page3 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 3>
+Package pdftex.def Info: Survey.pdf, page3 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [61 <./Survey.pdf>]
+<Survey.pdf, id=255, page=4, 614.295pt x 794.97pt>
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 4>
+Package pdftex.def Info: Survey.pdf, page4 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+
+<use Survey.pdf, page 4>
+Package pdftex.def Info: Survey.pdf, page4 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 4>
+Package pdftex.def Info: Survey.pdf, page4 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [62 <./Survey.pdf>]
+<Survey.pdf, id=259, page=5, 614.295pt x 794.97pt>
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 5>
+Package pdftex.def Info: Survey.pdf, page5 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+
+<use Survey.pdf, page 5>
+Package pdftex.def Info: Survey.pdf, page5 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 5>
+Package pdftex.def Info: Survey.pdf, page5 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [63 <./Survey.pdf>]
+<Survey.pdf, id=279, page=6, 614.295pt x 794.97pt>
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 6>
+Package pdftex.def Info: Survey.pdf, page6 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+
+<use Survey.pdf, page 6>
+Package pdftex.def Info: Survey.pdf, page6 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 6>
+Package pdftex.def Info: Survey.pdf, page6 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [64 <./Survey.pdf>]
+<Survey.pdf, id=287, page=7, 614.295pt x 794.97pt>
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 7>
+Package pdftex.def Info: Survey.pdf, page7 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+
+<use Survey.pdf, page 7>
+Package pdftex.def Info: Survey.pdf, page7 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Survey.pdf Graphic file (type pdf)
+ <use Survey.pdf, page 7>
+Package pdftex.def Info: Survey.pdf, page7 used on input line 597.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [65 <./Survey.pdf>]
 
 Package natbib Warning: There were undefined citations.
 
-[52] (Dissertation.aux) ) 
+(Dissertation.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3263 strings out of 493634
- 45659 string characters out of 3134015
- 111390 words of memory out of 3000000
- 6584 multiletter control sequences out of 15000+200000
+ 4707 strings out of 493634
+ 67242 string characters out of 3134015
+ 139726 words of memory out of 3000000
+ 7983 multiletter control sequences out of 15000+200000
  35499 words of font info for 77 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 27i,9n,27p,1771b,409s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.9/f
-onts/enc/dvips/fontname/8r.enc}<C:/Users/k-winkle/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/k-winkle/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/k-winkl
-e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/k-winkle/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/k-winkle/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/k-win
-kle/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Dissertation.pdf (53 pages, 2662880 bytes).
+ 39i,18n,43p,1791b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontname
+/8r.enc}<C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb><C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/k-winkle/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/k-winkle/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/k
+-winkle/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><C:/Users/k-winkle/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/urw/helvetic/uhvb8a.pfb><C:/Users/k-winkle/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/k-winkle/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Dissertation.pdf (66 pages, 1235425 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
+ 323 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
